@@ -158,6 +158,38 @@
         "name": "Slash3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "offfcialtd5logo.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "offfcialtd5logo.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "offfcialtd5logo2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "offfcialtd5logo2.webp",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -168,6 +200,10 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/intro"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
