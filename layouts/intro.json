@@ -236,26 +236,29 @@
             "value": "Wait"
           },
           "parameters": [
-            "2"
+            "1"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "Tween::HasFinished"
+            "value": "PlaySound"
           },
           "parameters": [
-            "fade",
-            "Tween",
-            "\"fade\""
+            "",
+            "intro.wav",
+            "",
+            "100",
+            "1"
           ]
-        }
-      ],
-      "actions": [
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
         {
           "type": {
             "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -266,7 +269,7 @@
             "\"fade\"",
             "255",
             "\"easeInOutCubic\"",
-            "2",
+            "3",
             ""
           ]
         },
@@ -275,7 +278,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "2"
+            "5"
           ]
         },
         {
@@ -289,6 +292,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
