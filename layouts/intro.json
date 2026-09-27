@@ -245,29 +245,24 @@
         },
         {
           "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Sega Intro (Sonic 1).mp3",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
-            "2"
+            "5"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "fade",
-            "Tween",
-            "\"fade\""
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -301,6 +296,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
