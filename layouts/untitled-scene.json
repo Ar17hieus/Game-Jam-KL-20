@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740955,
+    "zoomFactor": 0.6672773998330009,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -92,11 +92,13 @@
       "variables": [
         {
           "name": "Machine_Gun",
+          "persistentUuid": "3b288206-958d-4a1d-8d2a-310c85532f23",
           "type": "boolean",
           "value": false
         },
         {
           "name": "Missiles",
+          "persistentUuid": "843eda92-08ff-4066-ba63-cc38d165f1dd",
           "type": "boolean",
           "value": false
         }
@@ -173,6 +175,8 @@
           "StickMode": "Analog"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 1.0000000150474662e+29,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -182,9 +186,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 450,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "useLegacyTurnBack": false,
           "viewpoint": "TopDown"
         }
@@ -390,6 +392,215 @@
         "lineHeight": 0,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Slash",
+      "persistentUuid": "f2658842-d41f-40f7-aa54-fee270b7bd52",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 72,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slash",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 72,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slash2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 72,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Slash3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 72,
+                    "y": 48
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 7
+                      },
+                      {
+                        "x": 144,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -406,6 +617,9 @@
       },
       {
         "objectName": "Bullet"
+      },
+      {
+        "objectName": "Slash"
       }
     ]
   },
@@ -854,7 +1068,7 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::C_Button_pressed"
+            "value": "Gamepads::IsButtonJustPressed"
           },
           "parameters": [
             "",
@@ -862,8 +1076,478 @@
             "\"RB\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Up\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Right\"",
+            ""
+          ]
         }
       ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Slash",
+            "Player.X()",
+            "Player.Y() + -100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Slash",
+            "Animation",
+            "=",
+            "\"up\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.025"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Down\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Right\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Slash",
+            "Player.X()",
+            "Player.Y() + 100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Slash",
+            "Animation",
+            "=",
+            "\"down\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.025"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Up\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Down\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Slash",
+            "Player.X() - 100",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Slash",
+            "Animation",
+            "=",
+            "\"left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.025"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Right\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Up\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Down\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Slash",
+            "Player.X() + 100",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Slash",
+            "Animation",
+            "=",
+            "\"right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.025"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Right\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::C_Axis_pushed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            "\"Up\"",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Slash",
+            "Player.X() + 100",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Slash",
+            "Animation",
+            "=",
+            "\"right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardAngle"
+          },
+          "parameters": [
+            "Slash",
+            "45",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.025"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": []
     },
     {
