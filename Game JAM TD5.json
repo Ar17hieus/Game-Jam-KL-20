@@ -312,27 +312,83 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite18",
-        "smoothed": false,
+        "file": "Screen Recording 2026-09-27 160730.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Screen Recording 2026-09-27 160730.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite19",
-        "smoothed": false,
+        "file": "Tower Defense Simulator ASMR - Accelerator Firing-[AudioTrimmer.com].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tower Defense Simulator ASMR - Accelerator Firing-[AudioTrimmer.com].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite20",
-        "smoothed": false,
+        "file": "daviddumaisaudio-sword-slash-and-swing-185432.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daviddumaisaudio-sword-slash-and-swing-185432.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "daviddumaisaudio-sword-slash-and-swing-185431.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daviddumaisaudio-sword-slash-and-swing-185431.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "daviddumaisaudio-sword-slash-with-metallic-impact-185435.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daviddumaisaudio-sword-slash-with-metallic-impact-185435.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "daviddumaisaudio-sword-slash-and-swing-185432 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daviddumaisaudio-sword-slash-and-swing-185432 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "u_fe12rqkbth-sword-clash-241729.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "u_fe12rqkbth-sword-clash-241729.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "gargamel10-sword-slashing-game-sound-effect-1-379228.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gargamel10-sword-slashing-game-sound-effect-1-379228.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -374,6 +430,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedjump"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
     }
   ],
   "externalLayouts": []
