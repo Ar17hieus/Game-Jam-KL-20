@@ -212,7 +212,7 @@
           "name": "rayofdoom",
           "persistentUuid": "3b288206-958d-4a1d-8d2a-310c85532f23",
           "type": "boolean",
-          "value": true
+          "value": false
         },
         {
           "name": "Missiles",
@@ -228,6 +228,7 @@
         },
         {
           "name": "BEWM",
+          "persistentUuid": "f8f23ffb-3005-4f95-b87b-7150fa0c0e3b",
           "type": "boolean",
           "value": false
         }
@@ -943,8 +944,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ligthning",
-      "persistentUuid": "0ef06e6b-4b42-40dc-8dd0-8f22a16f8990",
+      "name": "NewSprite",
+      "persistentUuid": "e3ecd61b-5407-46dc-be21-f75e01baf933",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -962,12 +963,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "NewSprite19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 38,
-                    "y": 0
+                    "x": 21,
+                    "y": 256
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -978,20 +979,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 43,
+                        "x": 46,
                         "y": 0
                       },
                       {
-                        "x": 43,
-                        "y": 64
+                        "x": 46,
+                        "y": 256
                       },
                       {
-                        "x": 17,
-                        "y": 64
+                        "x": 11,
+                        "y": 256
                       }
                     ]
                   ]
@@ -1019,6 +1020,9 @@
         "objectName": "Bullet"
       },
       {
+        "objectName": "NewSprite"
+      },
+      {
         "objectName": "Slash"
       },
       {
@@ -1026,9 +1030,6 @@
       },
       {
         "objectName": "spawners"
-      },
-      {
-        "objectName": "ligthning"
       }
     ]
   },
@@ -1075,6 +1076,29 @@
                 "",
                 "\"spawn\""
               ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "4",
+                "4",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerShakingFrequency"
+              },
+              "parameters": [
+                "",
+                "1500",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -1086,7 +1110,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "constants",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1148,7 +1171,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1192,7 +1214,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2258,7 +2279,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "ray of doom",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2286,6 +2306,37 @@
                         "Player",
                         "rayofdoom",
                         "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "BEWM",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetLinearCoolingRateOp"
+                      },
+                      "parameters": [
+                        "Player",
+                        "FireBullet",
+                        "=",
+                        "0.1",
                         ""
                       ]
                     }
@@ -2399,6 +2450,17 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2416,6 +2478,16 @@
                         "24350",
                         "10000"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CameraShake::StartShaking"
+                      },
+                      "parameters": [
+                        "",
+                        "0",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -2424,12 +2496,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "Gamepads::C_Button_released"
+                        "value": "BooleanObjectVariable"
                       },
                       "parameters": [
-                        "",
-                        "1",
-                        "\"RT\"",
+                        "Player",
+                        "BEWM",
+                        "False",
                         ""
                       ]
                     }
@@ -2442,6 +2514,16 @@
                       "parameters": [
                         "",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CameraShake::StopShaking"
+                      },
+                      "parameters": [
+                        "",
+                        "0",
+                        ""
                       ]
                     }
                   ]
@@ -2464,11 +2546,42 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "accelchargeupnoise.mp3",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3.2"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
                         "Player",
                         "BEWM",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
                         "True",
                         ""
                       ]
@@ -2482,7 +2595,7 @@
                         "Tower Defense Simulator ASMR - Accelerator Firing-[AudioTrimmer.com].mp3",
                         "1",
                         "yes",
-                        "30",
+                        "100",
                         "1"
                       ]
                     }
@@ -2496,7 +2609,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "lightning blast",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2534,7 +2646,7 @@
                       },
                       "parameters": [
                         "",
-                        "ligthning",
+                        "NewSprite",
                         "Player.X()",
                         "Player.Y()",
                         ""
@@ -2546,8 +2658,8 @@
                       },
                       "parameters": [
                         "enemy",
-                        "ligthning.X()",
-                        "ligthning.Y()"
+                        "NewSprite.X()",
+                        "NewSprite.Y()"
                       ]
                     },
                     {
@@ -2555,7 +2667,7 @@
                         "value": "RotateTowardObject"
                       },
                       "parameters": [
-                        "ligthning",
+                        "NewSprite",
                         "enemy",
                         "0",
                         ""
@@ -2566,7 +2678,7 @@
                         "value": "AddForceTowardObject"
                       },
                       "parameters": [
-                        "ligthning",
+                        "NewSprite",
                         "enemy",
                         "25000",
                         ""
@@ -2588,7 +2700,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "enemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2598,7 +2709,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2662,7 +2772,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2672,7 +2781,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2716,7 +2824,7 @@
                       },
                       "parameters": [
                         "enemy",
-                        "ligthning",
+                        "NewSprite",
                         "",
                         "",
                         ""
@@ -3016,18 +3124,142 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "enemy",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "enemy",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "15",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::Health"
+          },
+          "parameters": [
+            "Player",
+            "Health",
+            "<=",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"intro\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::HeatLevel"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            "<=",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::SetLinearCoolingRateOp"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            "=",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "rayofdoom",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResumeSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
