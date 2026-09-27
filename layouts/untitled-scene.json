@@ -67,7 +67,6 @@
       "customSize": true,
       "depth": 1,
       "height": 64,
-      "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "Overheat",
@@ -82,15 +81,118 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "ed9f84a4-8e95-4ee2-8136-82d213ac3d60",
-      "width": 0,
-      "x": 965,
-      "y": 122,
+      "width": 75,
+      "x": 981,
+      "y": 144,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "6764157a-664c-455e-a41c-f8b225ea4011",
+      "width": 75,
+      "x": 127,
+      "y": 384,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "a840f37e-03e7-4de2-9b63-e25aa069ada5",
+      "width": 75,
+      "x": 623,
+      "y": 66,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "49f72802-72fb-4c46-9a2e-ccd87de37726",
+      "width": 75,
+      "x": 378,
+      "y": 168,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "49f9610a-ec09-4601-a30b-a6163b949e9d",
+      "width": 75,
+      "x": 987,
+      "y": 548,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "bd0e749e-34e7-4e2b-ae74-bd8d79810880",
+      "width": 75,
+      "x": 740,
+      "y": 630,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "9f05c9d0-4ca8-48b8-b601-eb3aa82377a1",
+      "width": 75,
+      "x": 369,
+      "y": 584,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,8 +248,8 @@
           "HeatLevel": 0,
           "AutomaticReloading": true,
           "OverheatDuration": 0,
-          "LinearCoolingRate": 0.1,
-          "ExponentialCoolingRate": 0.3,
+          "LinearCoolingRate": 0,
+          "ExponentialCoolingRate": 0,
           "BulletLayer": "",
           "RandomizedAngle": 0
         },
@@ -331,14 +433,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
+                    "x": 10,
                     "y": 32
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 10,
+                    "y": 32
                   },
                   "customCollisionMask": [
                     [
@@ -1158,7 +1260,7 @@
             "Bullet",
             "CursorX()",
             "CursorY()",
-            "15000",
+            "24350",
             ""
           ]
         }
@@ -1208,11 +1310,11 @@
           "parameters": [
             "Player",
             "FireBullet",
-            "Player.X()",
-            "Player.Y()",
+            "Player.CenterX()",
+            "Player.CenterY()",
             "Bullet",
             "Gamepads::StickAngle(1, \"Right\")",
-            "15000",
+            "24350",
             "10000"
           ]
         }
@@ -1239,7 +1341,7 @@
             "Player",
             "FireBullet",
             "=",
-            "0",
+            "0.01",
             ""
           ]
         },
@@ -1328,7 +1430,7 @@
             "",
             "Slash",
             "Player.X()",
-            "Player.Y() - 80",
+            "Player.Y() - 90",
             ""
           ]
         },
@@ -1436,7 +1538,7 @@
             "",
             "Slash",
             "Player.X()",
-            "Player.Y() + 80",
+            "Player.Y() + 90",
             ""
           ]
         },
@@ -1543,7 +1645,7 @@
           "parameters": [
             "",
             "Slash",
-            "Player.X() - 80",
+            "Player.X() - 90",
             "Player.Y()",
             ""
           ]
@@ -1651,7 +1753,7 @@
           "parameters": [
             "",
             "Slash",
-            "Player.X() + 80",
+            "Player.X() + 90",
             "Player.Y()",
             ""
           ]
@@ -1758,6 +1860,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PickRandomInstance"
+          },
+          "parameters": [
+            "",
+            "NewSprite"
+          ]
+        },
         {
           "type": {
             "value": "Create"
