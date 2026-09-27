@@ -126,6 +126,38 @@
         "name": "NewSprite2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slash",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Slash2.png\"}",
+        "name": "Slash2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slash3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
