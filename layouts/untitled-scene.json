@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998330009,
+    "zoomFactor": 0.737081631799407,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -106,7 +106,6 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.2,
@@ -137,6 +136,7 @@
           "RandomizedAngle": 0
         },
         {
+          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
           "Health": 115,
@@ -165,6 +165,7 @@
           "PercentDamageReduction": 0
         },
         {
+          "isFolded": true,
           "name": "TopDownGamepadMapper",
           "type": "Gamepads::TopDownGamepadMapper",
           "TopDownMovement": "TopDownMovement",
@@ -175,6 +176,7 @@
           "StickMode": "Analog"
         },
         {
+          "isFolded": true,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 1.0000000150474662e+29,
@@ -1539,6 +1541,16 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
