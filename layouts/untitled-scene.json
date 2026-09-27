@@ -94,7 +94,7 @@
           "name": "Machine_Gun",
           "persistentUuid": "3b288206-958d-4a1d-8d2a-310c85532f23",
           "type": "boolean",
-          "value": false
+          "value": true
         },
         {
           "name": "Missiles",
