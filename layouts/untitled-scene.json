@@ -67,6 +67,7 @@
       "customSize": true,
       "depth": 1,
       "height": 64,
+      "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "Overheat",
@@ -88,7 +89,18 @@
       "persistentUuid": "120321e6-a557-4293-a7fd-492a21c61f9f",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Machine_Gun",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Missiles",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -651,6 +663,17 @@
         },
         {
           "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "Machine_Gun",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
@@ -715,7 +738,7 @@
             "Bullet",
             "CursorX()",
             "CursorY()",
-            "500",
+            "100000",
             ""
           ]
         }
@@ -724,6 +747,17 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "Machine_Gun",
+            "True",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Gamepads::C_Controller_X_is_connected"
@@ -758,7 +792,7 @@
             "Player.Y()",
             "Bullet",
             "Gamepads::StickAngle(1, \"Right\")",
-            "500",
+            "100000",
             "10000"
           ]
         }
@@ -814,6 +848,23 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::C_Button_pressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
