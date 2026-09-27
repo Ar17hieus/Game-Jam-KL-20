@@ -91,7 +91,75 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": []
+    "resources": [
+      {
+        "file": "assets/Player.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotoSansKR-Thin.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Korean/343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slash",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Slash2.png\"}",
+        "name": "Slash2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slash3",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -106,6 +174,19 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    }
+  ],
   "externalLayouts": []
 }
