@@ -416,6 +416,87 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Bronze bar background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze bar background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/243af986cfe00f54732f8c0800fb77bc516087c6bc96893f0f83e5dacbca0f13_Bronze bar background.png",
+          "name": "Bronze bar background.png"
+        }
+      },
+      {
+        "file": "assets/Brown LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/dedf79e6421b8ab3ba5ede3a90bef87412c248afcd4eb4881cd94dada5538140_Brown LCD Bar Fill.png",
+          "name": "Brown LCD Bar Fill.png"
+        }
+      },
+      {
+        "file": "assets/Green LCD Bar Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/55034bb02ed0cbeede3da64dcf05d3590abee4a8fa69657ed5d461f31d2f1df0_Green LCD Bar Fill.png",
+          "name": "Green LCD Bar Fill.png"
+        }
       }
     ]
   },
@@ -468,6 +549,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
     }
   ],
   "externalLayouts": []
