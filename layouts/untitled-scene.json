@@ -745,6 +745,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 1.0000000138484279e+24,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -755,10 +757,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 250,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "animations": [
