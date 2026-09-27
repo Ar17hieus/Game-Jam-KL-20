@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.737081631799407,
+    "zoomFactor": 0.6672773998330012,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -31,15 +31,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 3,
-      "height": 173,
+      "depth": 2,
+      "height": 107,
       "keepRatio": true,
       "layer": "",
       "name": "Player",
       "persistentUuid": "217698d8-d67a-4627-8cf0-9f279c0f49d5",
-      "width": 173,
-      "x": 622,
-      "y": 378,
+      "width": 107,
+      "x": 589,
+      "y": 411,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,6 +79,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "ed9f84a4-8e95-4ee2-8136-82d213ac3d60",
+      "width": 0,
+      "x": 965,
+      "y": 122,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -91,7 +107,7 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Machine_Gun",
+          "name": "rayofdoom",
           "persistentUuid": "3b288206-958d-4a1d-8d2a-310c85532f23",
           "type": "boolean",
           "value": true
@@ -603,6 +619,173 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "thundah",
+      "persistentUuid": "41f494a3-35a6-42d2-a124-c3556c015b78",
+      "texture": "NewTiledSprite3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "enemy",
+      "persistentUuid": "b32572dd-cb44-4b0c-92c0-42e5323b1b84",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1.0000000138484279e+24,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 250,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "d78996dc-f59a-444e-a9ff-3fac678e510a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner",
+          "SpawnPeriod": 1,
+          "OffsetX": 0,
+          "OffsetY": 0,
+          "JustSpawnedAnObject": false,
+          "MaxQuantityReached": false,
+          "MaxQuantity": 2,
+          "SpawnerCapacity": 0,
+          "UnlimitedCapacity": true,
+          "RandomPosition": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -622,6 +805,15 @@
       },
       {
         "objectName": "Slash"
+      },
+      {
+        "objectName": "thundah"
+      },
+      {
+        "objectName": "enemy"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -862,6 +1054,18 @@
             "=",
             "\"Overcharge: \" + ToString(Player.FireBullet::HeatLevel())"
           ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "enemy",
+            "Pathfinding",
+            "",
+            "Player.X()",
+            "Player.Y()"
+          ]
         }
       ]
     },
@@ -883,7 +1087,7 @@
           },
           "parameters": [
             "Player",
-            "Machine_Gun",
+            "rayofdoom",
             "True",
             ""
           ]
@@ -954,7 +1158,7 @@
             "Bullet",
             "CursorX()",
             "CursorY()",
-            "100000",
+            "10000",
             ""
           ]
         }
@@ -969,7 +1173,7 @@
           },
           "parameters": [
             "Player",
-            "Machine_Gun",
+            "rayofdoom",
             "True",
             ""
           ]
@@ -1008,7 +1212,7 @@
             "Player.Y()",
             "Bullet",
             "Gamepads::StickAngle(1, \"Right\")",
-            "100000",
+            "10000",
             "10000"
           ]
         }
@@ -1041,25 +1245,12 @@
         },
         {
           "type": {
-            "value": "FireBullet::FireBullet::SetOverheatDurationOp"
+            "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
           },
           "parameters": [
-            "Player",
-            "FireBullet",
-            "=",
-            "1.80",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "FireBullet::FireBullet::SetExponentialCoolingRateOp"
-          },
-          "parameters": [
-            "Player",
-            "FireBullet",
-            "=",
-            "0.1",
+            "NewSprite",
+            "ObjectSpawner",
+            "enemy",
             ""
           ]
         }
@@ -1114,6 +1305,18 @@
             "1",
             "\"Right\"",
             "\"Right\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
             ""
           ]
         }
@@ -1212,6 +1415,18 @@
             "\"Right\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1308,6 +1523,18 @@
             "\"Down\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -1364,6 +1591,18 @@
             "",
             "1",
             "\"RB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
             ""
           ]
         },
@@ -1465,6 +1704,18 @@
         },
         {
           "type": {
+            "inverted": true,
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Gamepads::C_Axis_pushed"
           },
           "parameters": [
@@ -1544,18 +1795,85 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"LB\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Gamepads::IsButtonJustPressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"RB\"",
+            ""
+          ]
+        }
+      ],
       "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::IsOverheated"
+          },
+          "parameters": [
+            "Player",
+            "FireBullet",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "rayofdoom",
+            "False",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "enemy",
+            "NewSprite.X()",
+            "NewSprite.Y()",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1711,8 +2029,16 @@
       "type": "Health::Health"
     },
     {
+      "name": "ObjectSpawner",
+      "type": "ObjectSpawner::ObjectSpawner"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Resizable",
