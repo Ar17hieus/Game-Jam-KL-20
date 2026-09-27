@@ -9,7 +9,7 @@
   "title": "",
   "v": 249,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.4057518905943824,
+    "snap": true,
+    "zoomFactor": 0.5653158055126307,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -38,8 +38,8 @@
       "name": "fade",
       "persistentUuid": "f84dd5dd-258d-42fb-afa6-00a3e78e2022",
       "width": 1695,
-      "x": -204,
-      "y": -131,
+      "x": 1056,
+      "y": -224,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,18 +204,6 @@
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": ""
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
