@@ -955,13 +955,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1051,13 +1070,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1147,13 +1185,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1243,13 +1300,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1339,13 +1415,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1432,13 +1527,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1525,13 +1639,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1618,13 +1751,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::IsButtonJustPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"RB\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::IsButtonJustPressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"R1\"",
+                ""
+              ]
+            }
           ]
         },
         {
