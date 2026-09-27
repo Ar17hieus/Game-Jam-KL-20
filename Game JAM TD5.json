@@ -896,6 +896,24 @@
         "name": "MainMenuInformation12",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "intro.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "intro.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite68",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
