@@ -1244,6 +1244,70 @@
         "name": "NewSprite89",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "New Project (12).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (12).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite90",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (13).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (13).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Project (2)5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Project (2)5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (14).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (14).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite91",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MainMenuInformation13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuInformation13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sprite-0008_Copy.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0008_Copy.webp",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1304,6 +1368,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
   "externalLayouts": []
