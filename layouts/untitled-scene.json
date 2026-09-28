@@ -20,13 +20,62 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.8046714318874166,
+    "zoomFactor": 1.3841198046307022,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "wave1start",
+      "persistentUuid": "d487bf37-3ddb-45b6-bf4a-882189203e9c",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave1done",
+      "persistentUuid": "16b8cbb4-385e-4fab-9296-51db95ae6723",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave2start",
+      "persistentUuid": "8945a85f-2d46-4eb8-82d0-e84009a63c60",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave2done",
+      "persistentUuid": "4dc454c5-499d-4134-bd81-4abcb060e5e9",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave3start",
+      "persistentUuid": "118e2940-5261-4c10-a1d3-2281fc913c23",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave3done",
+      "persistentUuid": "496f88b2-d09e-4b1d-b13c-e12b307d55e2",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave4start",
+      "persistentUuid": "9d765164-fd1e-4ced-aa41-063fe4fb971f",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave4done",
+      "persistentUuid": "cfbeddf3-64ed-4da2-bfb4-0df7516306a7",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -38,8 +87,8 @@
       "name": "Player",
       "persistentUuid": "217698d8-d67a-4627-8cf0-9f279c0f49d5",
       "width": 107,
-      "x": 589,
-      "y": 411,
+      "x": 587,
+      "y": 427,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -2946,6 +2995,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "39b5fe0a8bca0e591a8b8a74c94ee3e6f80192ac548e4fe52c6102de1c0e22ab",
+      "name": "BronzeGreenBar",
+      "persistentUuid": "3d2e4b6e-6503-4068-9499-db265810a937",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Bronze Green Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "ShowLabel": false,
+        "PreviousHighValueDuration": 1,
+        "BarTopPadding": 4,
+        "BarLeftPadding": 25,
+        "BarRightPadding": 25,
+        "BarBottomPadding": 5,
+        "InitialValue": 8,
+        "MaxValue": 16,
+        "EasingDuration": 0
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "persistentUuid": "85cde7c0-2f09-4e5b-92a4-65e40dd209a2",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2986,6 +3077,12 @@
       },
       {
         "objectName": "SpaceScroll"
+      },
+      {
+        "objectName": "CopperRedBar"
+      },
+      {
+        "objectName": "BronzeGreenBar"
       }
     ]
   },
@@ -3051,9 +3148,21 @@
               },
               "parameters": [
                 "",
-                "1500",
+                "2000",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Train Battle (In-Game Version) - Block Tales OST.mp3",
+                "yes",
+                "80",
+                "1"
               ]
             }
           ]
@@ -3066,6 +3175,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "constants",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3130,39 +3240,7 @@
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::TimeSinceLastHit"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    ">=",
-                    "3.5",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::ActivateShield"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "20",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
@@ -3170,6 +3248,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3371,6 +3450,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "slash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4282,7 +4362,19 @@
                       },
                       "parameters": [
                         "",
-                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]2.mp3",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]2.mp3",
                         "",
                         "100",
                         "1"
@@ -4328,6 +4420,19 @@
                         "=",
                         "0.1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "soundreality-riser-the-plane-391179-[AudioTrimmer.com].mp3",
+                        "2",
+                        "no",
+                        "100",
+                        "0.01"
                       ]
                     }
                   ]
@@ -4708,14 +4813,19 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"spawn\"",
-                    ">=",
-                    "1.157"
+                    "wave1start",
+                    "True",
+                    ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -4742,11 +4852,706 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
                   },
                   "parameters": [
                     "",
-                    "\"spawn\""
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.85"
                   ]
                 }
               ]
@@ -4850,6 +5655,41 @@
                     "1",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Slash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
                     ""
                   ]
                 }
@@ -5285,9 +6125,29 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
         {
           "type": {
             "value": "SetBooleanObjectVariable"
@@ -5310,6 +6170,18 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "soundshelfstudio-ui-hyperdrive-ready-ping-537580.mp3",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -5323,6 +6195,17 @@
           "parameters": [
             "Player",
             "rayofdoom",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
             "True",
             ""
           ]
