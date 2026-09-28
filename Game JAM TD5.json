@@ -2786,6 +2786,550 @@
         "name": "NewSprite114",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite115",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite116",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite117",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite118",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite119",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite120",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite121",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite122",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite123",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite124",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite125.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite125",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite126",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite127",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite128",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite129",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite130",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite131",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left/right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left/right8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite132.png\"}",
+        "name": "NewSprite132",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite133.png\"}",
+        "name": "NewSprite133",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite134.png\"}",
+        "name": "NewSprite134",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/thunder.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "thunder",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/thunder2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "thunder2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/thunder3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "thunder3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dot Bar Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Blue Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/aa81b97c3211cf1e7cd040b96f5409851e3f1141c496b064157588294f09e662_Dot Bar Blue Border.png",
+          "name": "Dot Bar Blue Border.png"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Blue Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Blue Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/0f15d828199d38d229469b48c953574c22a34b8daeb8941f3eb40df01a8f7d22_Dot Bar Blue Fill Bar.png",
+          "name": "Dot Bar Blue Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up.png\"}",
+        "name": "up",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up2.png\"}",
+        "name": "up2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up3.png\"}",
+        "name": "up3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/up10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "up10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/down10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "down10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "left7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right7",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
