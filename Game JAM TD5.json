@@ -2327,6 +2327,14 @@
         "name": "offfcialtd5logo53",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite94.png\"}",
+        "name": "NewSprite94",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

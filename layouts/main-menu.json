@@ -111,8 +111,8 @@
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
-      "x": 2,
-      "y": 0,
+      "x": -1,
+      "y": 5,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -2521,31 +2521,6 @@
       "conditions": [
         {
           "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "QuitButton",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Quit"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "SceneJustBegins"
           },
           "parameters": [
@@ -2602,6 +2577,115 @@
           },
           "parameters": [
             "QuitButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "QuitButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Creditsbutton",
+            "Opacity",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "QuitButton",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "0.1",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "MainMenuInformation",
+            "Animation",
+            "=",
+            "\"Pressed Anim\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "ButtonPlay"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Creditsbutton"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"fade3\"",
+            "255",
+            "\"easeInOutCubic\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
             ""
           ]
         }
