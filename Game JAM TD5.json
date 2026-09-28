@@ -1911,6 +1911,422 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo53",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
