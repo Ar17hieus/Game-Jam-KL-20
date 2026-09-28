@@ -2717,6 +2717,118 @@
         "name": "HomeButton",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HomeButton15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HomeButton15",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
