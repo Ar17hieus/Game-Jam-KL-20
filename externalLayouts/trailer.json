@@ -1,0 +1,61 @@
+{
+  "associatedLayout": "Untitled scene",
+  "name": "Trailer",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 8,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "2fde9513-fd97-4dca-9303-bb56eec74ae7",
+      "width": 256,
+      "x": 784,
+      "y": 512,
+      "zOrder": 1,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpaceScroll",
+      "persistentUuid": "454c896c-08cd-4a0e-8fae-ca3b565fafc1",
+      "width": 0,
+      "x": 16,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.7370816317994028,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  }
+}

@@ -17,7 +17,7 @@
     "pixelsRounding": true,
     "projectUuid": "367e580d-34b2-4e61-9d11-f7a72e86f4a0",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "scaleOuter",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Game JAM TD5",
@@ -1598,74 +1598,42 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite92.png",
+        "file": "assets/default.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite92",
+        "name": "default",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite93.png",
+        "file": "assets/default2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite93",
+        "name": "default2",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite94.png",
+        "file": "assets/Swore.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite94",
+        "name": "Swore",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite95.png",
+        "file": "assets/Swore2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite95",
+        "name": "Swore2",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite96.png",
+        "file": "assets/Swore3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite96",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite97.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite97",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite98.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite98",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite99.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite99",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite100.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite100",
+        "name": "Swore3",
         "smoothed": false,
         "userAdded": false
       }
@@ -1738,5 +1706,10 @@
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/trailer"
+    }
+  ]
 }
