@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "game",
+  "name": "game",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,13 +20,20 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690471,
+    "zoomFactor": 1.1343715797161071,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "confiremd",
+      "persistentUuid": "2f2520c2-51a4-458f-8e67-d542c505df7c",
+      "type": "boolean",
+      "value": true
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -55,8 +62,8 @@
       "name": "Overheat",
       "persistentUuid": "69f5d136-7a0d-414b-a035-6075503023fd",
       "width": 206,
-      "x": 40,
-      "y": 78,
+      "x": 41,
+      "y": 77,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,8 +231,8 @@
       "name": "HP",
       "persistentUuid": "6b6d93de-a0e5-4771-b998-605d3671fc69",
       "width": 0,
-      "x": 37,
-      "y": 18,
+      "x": 40,
+      "y": 17,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -264,11 +271,18 @@
           "persistentUuid": "f8f23ffb-3005-4f95-b87b-7150fa0c0e3b",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "movespeed",
+          "persistentUuid": "3104f1eb-c815-4c62-aa36-859cff406074",
+          "type": "number",
+          "value": 450
         }
       ],
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.01,
@@ -299,6 +313,7 @@
           "RandomizedAngle": 0
         },
         {
+          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
           "Health": 115,
@@ -327,6 +342,7 @@
           "PercentDamageReduction": 0
         },
         {
+          "isFolded": true,
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9999,
@@ -390,9 +406,9 @@
           "StickMode": "Analog"
         },
         {
-          "isFolded": true,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 450,
           "acceleration": 1.0000000150474662e+29,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -400,7 +416,6 @@
           "customIsometryAngle": 30,
           "deceleration": 999999995904,
           "ignoreDefaultControls": false,
-          "maxSpeed": 450,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "useLegacyTurnBack": false,
@@ -472,7 +487,7 @@
       "effects": [],
       "behaviors": [],
       "string": "NANOPASTE",
-      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
@@ -495,7 +510,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "NANOPASTE",
-        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 30,
@@ -578,7 +593,7 @@
       "effects": [],
       "behaviors": [],
       "string": "OVERCHARGE",
-      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -601,7 +616,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "OVERCHARGE",
-        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
@@ -834,7 +849,7 @@
           "Health": 2,
           "CurrentHealth": 0,
           "MaxHealth": 2,
-          "DamageCooldown": 0,
+          "DamageCooldown": 0.03,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
           "DamageToBeApplied": 0,
@@ -1027,7 +1042,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
+                  "image": "NewSprite69",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1043,20 +1058,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
+                        "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 46,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 46,
-                        "y": 256
+                        "x": 256,
+                        "y": 35
                       },
                       {
-                        "x": 11,
-                        "y": 256
+                        "x": 0,
+                        "y": 35
                       }
                     ]
                   ]
@@ -1108,6 +1123,27 @@
         "MaxValue": 115,
         "EasingDuration": 0
       }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "persistentUuid": "4d2bf4d2-b669-405f-adfb-503d3b5305eb",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1127,6 +1163,9 @@
       },
       {
         "objectName": "OVERCHARGE"
+      },
+      {
+        "objectName": "CopperRedBar"
       },
       {
         "objectName": "Bullet"
@@ -1211,6 +1250,19 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "(Official) Tower Defense Simulator OST - Wave 45 Theme [youaretube.com].mp3",
+                "3",
+                "yes",
+                "100",
+                "1"
+              ]
             }
           ]
         }
@@ -1283,6 +1335,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1326,6 +1379,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1518,6 +1572,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1527,6 +1582,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "slash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2391,6 +2447,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "ray of doom",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2438,7 +2495,7 @@
                       },
                       "parameters": [
                         "",
-                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]2.mp3",
                         "",
                         "100",
                         "1"
@@ -2468,10 +2525,20 @@
                     },
                     {
                       "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "confiremd",
+                        "True",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Wait"
                       },
                       "parameters": [
-                        "2.5"
+                        "2.3"
                       ]
                     },
                     {
@@ -2484,6 +2551,19 @@
                         "=",
                         "0.1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com].mp3",
+                        "2",
+                        "yes",
+                        "100",
+                        "1"
                       ]
                     }
                   ]
@@ -2687,6 +2767,17 @@
                         "\"R2\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "BEWM",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2708,17 +2799,6 @@
                       },
                       "parameters": [
                         "3.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "BEWM",
-                        "True",
-                        ""
                       ]
                     },
                     {
@@ -2755,6 +2835,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "lightning blast",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3006,6 +3087,41 @@
                     "1",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Slash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
                     ""
                   ]
                 }
@@ -3441,9 +3557,28 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "confiremd",
+            "True",
+            ""
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PauseSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
         {
           "type": {
             "value": "SetBooleanObjectVariable"
@@ -3465,6 +3600,28 @@
             "=",
             "0",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com] (1).mp3",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "confiremd",
+            "False",
+            "True"
           ]
         }
       ]
@@ -3495,6 +3652,165 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "rayofdoom",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Right\"",
+                "\"Left\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Right\"",
+                "\"Right\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "Gamepads::StickAngle(1, \"Right\") + 180",
+            "150",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "rayofdoom",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Right\"",
+                "\"Up\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Right\"",
+                "\"Down\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "Gamepads::StickAngle(1, \"Right\") - 180",
+            "150",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

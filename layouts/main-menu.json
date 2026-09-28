@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826599987,
+    "zoomFactor": 0.3673257545058821,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,15 +30,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 722,
       "keepRatio": true,
       "layer": "",
       "name": "MainMenuInformation",
       "persistentUuid": "8ec9a349-748d-4159-a2b5-64cb93b70d1e",
-      "width": 0,
+      "width": 1283,
       "x": 0,
-      "y": 0,
+      "y": -2,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1719,8 +1720,26 @@
           "parameters": [
             "QuitButton"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "(Official) Tower Defense Simulator OST - Return Of The Deathwalker (The Deathwalker's Theme) [youaretube.com].mp3",
+            "3",
+            "yes",
+            "100",
+            "1"
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
