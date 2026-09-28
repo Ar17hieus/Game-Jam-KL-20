@@ -46,19 +46,19 @@
       "initialVariables": []
     },
     {
-      "angle": -1,
+      "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 118,
+      "depth": 0,
+      "height": 38,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "ButtnInstructions",
       "opacity": 199,
       "persistentUuid": "f86ea38b-d35d-43d4-b94d-7d2b612d8051",
-      "width": 331,
-      "x": 27,
-      "y": 432,
+      "width": 502,
+      "x": 17,
+      "y": 455,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -68,34 +68,34 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 53,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "ButtonPlay",
       "opacity": 199,
       "persistentUuid": "67c803ce-f379-447d-b495-888a33883a12",
-      "width": 152,
-      "x": 54,
-      "y": 378,
+      "width": 192,
+      "x": 20,
+      "y": 386,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": -1,
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 98,
+      "height": 51,
       "hidden": true,
       "layer": "",
       "name": "Creditsbutton",
       "opacity": 199,
       "persistentUuid": "3ffd502c-693f-4aeb-9d8e-d3c35346839b",
-      "width": 286,
-      "x": 39,
-      "y": 511,
+      "width": 371,
+      "x": 8,
+      "y": 517,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -105,16 +105,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
+      "height": 46,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "QuitButton",
       "opacity": 199,
       "persistentUuid": "d4d7cc70-ce87-4226-a1fd-483d5443ac42",
-      "width": 200,
-      "x": 59,
-      "y": 577,
+      "width": 163,
+      "x": 14,
+      "y": 587,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,8 +131,8 @@
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
-      "x": 1,
-      "y": -2,
+      "x": 4,
+      "y": 4,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -226,6 +226,10 @@
           "TouchIsInside": false,
           "MouseIsInside": false,
           "Index": 0
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         }
       ],
       "animations": [
@@ -289,7 +293,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -302,7 +311,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite76",
+                  "image": "NewSprite78",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -318,20 +327,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 1280,
+                        "x": 1274,
                         "y": 0
                       },
                       {
-                        "x": 1280,
-                        "y": 165
+                        "x": 1274,
+                        "y": 96
                       },
                       {
-                        "x": 0,
-                        "y": 165
+                        "x": 1,
+                        "y": 96
                       }
                     ]
                   ]
@@ -361,6 +370,10 @@
           "TouchIsInside": false,
           "MouseIsInside": false,
           "Index": 0
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         }
       ],
       "animations": [
@@ -375,7 +388,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite74",
+                  "image": "NewSprite79",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -391,20 +404,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 414,
-                        "y": 1
+                        "x": 420,
+                        "y": 0
                       },
                       {
-                        "x": 414,
-                        "y": 167
+                        "x": 420,
+                        "y": 96
                       },
                       {
-                        "x": 1,
-                        "y": 167
+                        "x": 0,
+                        "y": 96
                       }
                     ]
                   ]
@@ -1769,6 +1782,10 @@
           "TouchIsInside": false,
           "MouseIsInside": false,
           "Index": 0
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         }
       ],
       "animations": [
@@ -1783,7 +1800,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Project (2)4",
+                  "image": "New Project (2)5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1803,16 +1820,16 @@
                         "y": 0
                       },
                       {
-                        "x": 786,
+                        "x": 746,
                         "y": 0
                       },
                       {
-                        "x": 786,
-                        "y": 252
+                        "x": 746,
+                        "y": 96
                       },
                       {
                         "x": 0,
-                        "y": 252
+                        "y": 96
                       }
                     ]
                   ]
@@ -1966,6 +1983,15 @@
       "actions": [
         {
           "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "ButtonPlay",
+            "\"255;0;0\""
+          ]
+        },
+        {
+          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
@@ -1974,6 +2000,22 @@
             "=",
             "255"
           ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "ButtonPlay",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "0.2",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -2002,6 +2044,22 @@
             "Opacity",
             "=",
             "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "ButtnInstructions",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "1",
+            "",
+            ""
           ]
         }
       ]
@@ -2032,6 +2090,22 @@
             "=",
             "255"
           ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "QuitButton",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "1",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -2060,6 +2134,22 @@
             "Opacity",
             "=",
             "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "Creditsbutton",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "1",
+            "",
+            ""
           ]
         }
       ]
@@ -2090,6 +2180,15 @@
             "Opacity",
             "=",
             "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "ButtonPlay",
+            "\"255;255;255\""
           ]
         }
       ]
@@ -2496,6 +2595,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     },
     {
       "name": "Tween",
