@@ -111,9 +111,26 @@
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
-      "x": 2,
-      "y": 0,
+      "x": -1,
+      "y": -4,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "hidden": true,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "e5867e02-3c1c-4a59-bf23-080fecdc926a",
+      "width": 0,
+      "x": -25,
+      "y": 69,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2052,6 +2069,72 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Logo",
+      "persistentUuid": "e0f64d66-3429-481d-b7be-36456ee5c3b1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Logo.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 457,
+                        "y": 9
+                      },
+                      {
+                        "x": 457,
+                        "y": 307
+                      },
+                      {
+                        "x": 41,
+                        "y": 307
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2071,6 +2154,9 @@
       },
       {
         "objectName": "MainMenuInformation"
+      },
+      {
+        "objectName": "Logo"
       }
     ]
   },
@@ -2476,6 +2562,14 @@
         },
         {
           "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Logo"
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -2560,6 +2654,39 @@
           },
           "parameters": [
             "3.015"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Logo",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "Logo",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.15"
           ]
         },
         {

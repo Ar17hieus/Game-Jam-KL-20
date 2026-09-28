@@ -3330,6 +3330,89 @@
         "name": "right7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Logo.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Poppins-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Button_-_PS_L1.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_L1.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_Analogue_L_Up_Down_Left_Right.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_Analogue_L_Up_Down_Left_Right.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_Analogue_R_Up_Down_Left_Right.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_Analogue_R_Up_Down_Left_Right.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_L2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_L2.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_R1.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_R1.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_L3.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_L3.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_R2.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_R2.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Button_-_PS_Options.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_-_PS_Options.webp",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
