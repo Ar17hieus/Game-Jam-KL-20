@@ -48,33 +48,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 3,
-      "height": 55,
-      "keepRatio": true,
-      "layer": "ui",
-      "name": "HP",
-      "persistentUuid": "71cf4ba8-1c40-46e6-8387-6add3521a4a8",
-      "width": 489,
-      "x": 8,
-      "y": 6,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 20,
       "keepRatio": true,
       "layer": "ui",
       "name": "Overheat",
       "persistentUuid": "69f5d136-7a0d-414b-a035-6075503023fd",
-      "width": 348,
-      "x": 6,
-      "y": 59,
-      "zOrder": 3,
+      "width": 206,
+      "x": 40,
+      "y": 78,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -197,6 +180,56 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 149,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "OVERCHARGE",
+      "persistentUuid": "6b691bf4-9469-415c-a8db-11bc1e7100e8",
+      "width": 272,
+      "x": 9,
+      "y": 70,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 92,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "NANOPASTE",
+      "persistentUuid": "affcd0e4-4f4c-4bfb-bae5-9582bbbb3b6c",
+      "width": 341,
+      "x": 10,
+      "y": 3,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "HP",
+      "persistentUuid": "6b6d93de-a0e5-4771-b998-605d3671fc69",
+      "width": 0,
+      "x": 37,
+      "y": 18,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -266,7 +299,6 @@
           "RandomizedAngle": 0
         },
         {
-          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
           "Health": 115,
@@ -429,7 +461,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": true,
       "name": "HP",
       "persistentUuid": "4c8dab42-841a-4d44-a91f-e5dfea84f804",
@@ -439,17 +471,17 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "NP: ",
-      "font": "343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+      "string": "NANOPASTE",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
         "r": 0
       },
       "content": {
-        "bold": true,
+        "bold": false,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": true,
@@ -462,11 +494,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "NP: ",
-        "font": "343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+        "text": "NANOPASTE",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 30,
         "lineHeight": 0,
         "color": "0;0;0"
       }
@@ -535,7 +567,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": true,
       "name": "Overheat",
       "persistentUuid": "1d703dc4-c89b-49e0-89bd-0645f151a4cf",
@@ -545,22 +577,22 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Overcharge:",
-      "font": "343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+      "string": "OVERCHARGE",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
+        "bold": false,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": true,
         "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineThickness": 8,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -568,13 +600,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Overcharge:",
-        "font": "343e534af009f32f5f792db315684bdd0bbe61d6c626689e371ad5c7afedcc46_NotoSansKR-Thin.otf",
+        "text": "OVERCHARGE",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 20,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -797,6 +829,34 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 2,
+          "CurrentHealth": 0,
+          "MaxHealth": 2,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
+        {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 1.0000000138484279e+24,
@@ -811,6 +871,10 @@
           "maxSpeed": 250,
           "rotateObject": false,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         }
       ],
       "animations": [
@@ -1002,6 +1066,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "OVERCHARGE",
+      "persistentUuid": "9b5fed8a-c613-4620-b754-22d21eb1ba23",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 1,
+        "InitialValue": 0,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      }
+    },
+    {
+      "assetStoreId": "39b5fe0a8bca0e591a8b8a74c94ee3e6f80192ac548e4fe52c6102de1c0e22ab",
+      "name": "NANOPASTE",
+      "persistentUuid": "a335eeca-96ef-48f6-863b-9156cae22696",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Bronze Green Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "ShowLabel": false,
+        "PreviousHighValueDuration": 1,
+        "BarTopPadding": 4,
+        "BarLeftPadding": 25,
+        "BarRightPadding": 25,
+        "BarBottomPadding": 5,
+        "InitialValue": 115,
+        "MaxValue": 115,
+        "EasingDuration": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1014,7 +1120,13 @@
         "objectName": "HP"
       },
       {
+        "objectName": "NANOPASTE"
+      },
+      {
         "objectName": "Overheat"
+      },
+      {
+        "objectName": "OVERCHARGE"
       },
       {
         "objectName": "Bullet"
@@ -1120,28 +1232,6 @@
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "HP",
-                "Text",
-                "=",
-                "\"NP:\" + ToString(Player.Health::Health())"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Overheat",
-                "Text",
-                "=",
-                "\"Overcharge: \" + ToString(Player.FireBullet::HeatLevel())"
-              ]
-            },
-            {
-              "type": {
                 "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
@@ -1150,6 +1240,28 @@
                 "",
                 "Player.X()",
                 "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "OVERCHARGE",
+                "=",
+                "Player.FireBullet::HeatLevel()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "NANOPASTE",
+                "=",
+                "Player.Health::Health()",
+                ""
               ]
             }
           ]
@@ -1429,7 +1541,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1479,7 +1591,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     }
@@ -1537,7 +1649,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1587,7 +1699,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     }
@@ -1645,7 +1757,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1695,7 +1807,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     }
@@ -1753,7 +1865,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1765,7 +1877,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -1861,7 +1973,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1873,7 +1985,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -1966,7 +2078,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -1978,7 +2090,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -2071,7 +2183,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -2083,7 +2195,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -2176,7 +2288,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     },
@@ -2188,7 +2300,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -2295,9 +2407,43 @@
                         "FireBullet",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "BEWM",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "SetBooleanObjectVariable"
@@ -2538,7 +2684,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RT\"",
+                        "\"R2\"",
                         ""
                       ]
                     }
@@ -2623,7 +2769,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"LB\"",
+                        "\"L1\"",
                         ""
                       ]
                     },
@@ -2634,7 +2780,7 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"RB\"",
+                        "\"R1\"",
                         ""
                       ]
                     }
@@ -2836,6 +2982,95 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "ShakeObject_PositionAngle",
+                    "0.5",
+                    "20",
+                    "20",
+                    "0",
+                    "0.05",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "enemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "enemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "15",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -2883,7 +3118,7 @@
           "parameters": [
             "",
             "1",
-            "\"RB\"",
+            "\"R1\"",
             ""
           ]
         },
@@ -2895,7 +3130,7 @@
           "parameters": [
             "",
             "1",
-            "\"LB\"",
+            "\"L1\"",
             ""
           ]
         },
@@ -3011,7 +3246,7 @@
           "parameters": [
             "",
             "1",
-            "\"RB\"",
+            "\"R1\"",
             ""
           ]
         },
@@ -3023,7 +3258,7 @@
           "parameters": [
             "",
             "1",
-            "\"LB\"",
+            "\"L1\"",
             ""
           ]
         },
@@ -3119,45 +3354,45 @@
             "Player.Y()",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "RotateTowardPosition"
           },
           "parameters": [
-            "Player",
-            "enemy",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "enemy",
+            "Slash",
+            "CursorX()",
+            "CursorY()",
+            "0",
             ""
           ]
         },
         {
           "type": {
-            "value": "Health::Health::Hit"
+            "value": "AddForceTowardPosition"
           },
           "parameters": [
-            "Player",
-            "Health",
-            "15",
-            "",
-            "",
+            "Slash",
+            "CursorX()",
+            "CursorY()",
+            "15000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Slash",
             ""
           ]
         }
@@ -3423,6 +3658,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     },
     {
       "name": "SmoothCamera",
