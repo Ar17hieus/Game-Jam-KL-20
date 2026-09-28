@@ -2594,6 +2594,113 @@
         "name": "NewSprite94",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/default.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/default12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "default12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Rocket.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/a7525df1cce09eecd517873e6ebe7294b7789f189d624770913570e40b1c6c92_Kenney Rocket.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -2619,6 +2726,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winningscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/losingscene"
     }
   ],
   "externalEvents": [],
@@ -2684,6 +2795,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/winscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/losingscene"
     }
   ]
 }
