@@ -306,7 +306,7 @@
       {
         "file": "assets/NewSprite17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite17.png\"}",
         "name": "NewSprite17",
         "smoothed": false,
         "userAdded": false
@@ -914,6 +914,216 @@
         "name": "NewSprite68",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "nintendo-game-boy-startup.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "nintendo-game-boy-startup.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite69.png\"}",
+        "name": "NewSprite69",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (4).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite70",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite71",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (5).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Project (2).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Project (2)",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite72",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (5)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (5)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite73",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (3)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite74",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (6).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite75",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (7).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Project (2)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Project (2)2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (8).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Project (2)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Project (2)3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (9).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Project (2)4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Project (2)4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "New Project (10).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (10).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite76",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -966,6 +1176,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
     }
   ],
   "externalLayouts": []
