@@ -1124,6 +1124,22 @@
         "name": "NewSprite76",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "New Project (11).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Project (11).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite77",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

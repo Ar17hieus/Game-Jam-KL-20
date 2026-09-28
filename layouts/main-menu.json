@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988865,
+    "zoomFactor": 0.49508400737488867,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -67,17 +67,17 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 79.33491686460806,
+      "depth": 1,
+      "height": 64,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "ButtonPlay",
       "opacity": 199,
       "persistentUuid": "67c803ce-f379-447d-b495-888a33883a12",
-      "width": 200,
-      "x": 29,
-      "y": 370,
+      "width": 152,
+      "x": 54,
+      "y": 378,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,8 +131,8 @@
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
-      "x": -5,
-      "y": 1,
+      "x": 1,
+      "y": -2,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -240,7 +240,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite71",
+                  "image": "NewSprite77",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -260,16 +260,16 @@
                         "y": 0
                       },
                       {
-                        "x": 420,
+                        "x": 785,
                         "y": 0
                       },
                       {
-                        "x": 420,
-                        "y": 167
+                        "x": 785,
+                        "y": 178
                       },
                       {
                         "x": 0,
-                        "y": 167
+                        "y": 178
                       }
                     ]
                   ]
@@ -2212,6 +2212,24 @@
             "2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Untitled scene\"",
+            ""
+          ]
         }
       ]
     },
@@ -2325,30 +2343,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Fade",
-            "Tween",
-            "\"fade3\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Untitled scene\"",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
