@@ -1310,144 +1310,292 @@
         "userAdded": false
       },
       {
-        "file": "Screen Recording 2026-09-27160731.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Screen Recording 2026-09-27160731.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "soundshelfstudio-ui-hyperdrive-ready-ping-537581.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "soundshelfstudio-ui-hyperdrive-ready-ping-537581.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com].mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com].mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "Train Battle (In-Game Version) - Block Tales OST.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Train Battle (In-Game Version) - Block Tales OST.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "soundshelfstudio-ui-hyperdrive-ready-ping-537580.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "soundshelfstudio-ui-hyperdrive-ready-ping-537580.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "soundreality-riser-the-plane-391179-[AudioTrimmer.com].mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "soundreality-riser-the-plane-391179-[AudioTrimmer.com].mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Bronze bar background2.png",
+        "file": "infinityMainMech.webp",
         "kind": "image",
         "metadata": "",
-        "name": "Bronze bar background.png",
+        "name": "infinityMainMech.webp",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/243af986cfe00f54732f8c0800fb77bc516087c6bc96893f0f83e5dacbca0f13_Bronze bar background.png",
-          "name": "Bronze bar background.png"
-        }
+        "userAdded": false
       },
       {
-        "file": "assets/Brown LCD Bar Fill2.png",
+        "file": "assets/Idle.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Brown LCD Bar Fill.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle.png\"}",
+        "name": "Idle",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/dedf79e6421b8ab3ba5ede3a90bef87412c248afcd4eb4881cd94dada5538140_Brown LCD Bar Fill.png",
-          "name": "Brown LCD Bar Fill.png"
-        }
+        "userAdded": false
       },
       {
-        "file": "assets/Green LCD Bar Fill2.png",
+        "file": "assets/Idle2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Green LCD Bar Fill.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle2.png\"}",
+        "name": "Idle2",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/55034bb02ed0cbeede3da64dcf05d3590abee4a8fa69657ed5d461f31d2f1df0_Green LCD Bar Fill.png",
-          "name": "Green LCD Bar Fill.png"
-        }
+        "userAdded": false
       },
       {
-        "file": "assets/Copper Bar Border2.png",
+        "file": "assets/Idle3.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Copper Bar Border.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle3.png\"}",
+        "name": "Idle3",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
-          "name": "Copper Bar Border.png"
-        }
+        "userAdded": false
       },
       {
-        "file": "assets/Framed Pixel Red Fill Bar2.png",
+        "file": "assets/Player2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Framed Pixel Red Fill Bar.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player2",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
-          "name": "Framed Pixel Red Fill Bar.png"
-        }
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack15",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
