@@ -3597,6 +3597,142 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "dragon-studio-loud-explosion-425457.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dragon-studio-loud-explosion-425457.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ExplosionTexture1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionTexture1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/50be691a42be33a96faa72d0fc17e0463403326c605888adb799bbb2b02e3fd8_ExplosionTexture1.png",
+          "name": "ExplosionTexture1.png"
+        }
+      },
+      {
+        "file": "assets/ExplosionFog-Texture-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionFog-Texture-2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/64a424eeec46f355f121c7c3f25a37d39954b746c504a496642c49181467359c_ExplosionFog-Texture-2.png",
+          "name": "ExplosionFog-Texture-2.png"
+        }
+      },
+      {
+        "file": "assets/Lightning-Texture-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lightning-Texture-1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/59f79e94532692d7af37ad256af2fc5e3e4de06e178f51de298704cc5eb449b2_Lightning-Texture-1.png",
+          "name": "Lightning-Texture-1.png"
+        }
+      },
+      {
+        "file": "assets/PixelTrail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PixelTrail.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/ef6aa63d5cdf5ce14f88668e4d55a67a0051bc54e48e592fd3abbfed7e104b79_PixelTrail.png",
+          "name": "PixelTrail.png"
+        }
+      },
+      {
+        "file": "assets/Confetti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Confetti.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/GDevelop/a31adc88b6759260b6c8591bf80c3d8c26903c892935f77c4cfab19b267c9d9b_Confetti.png",
+          "name": "Confetti.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite150",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite151",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite152",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite153",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lasereffect.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lasereffect.png\"}",
+        "name": "lasereffect",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lasereffect2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lasereffect2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "soundshelfstudio-ui-warning-buzz-515667.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "soundshelfstudio-ui-warning-buzz-515667.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled design (35).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (35).png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

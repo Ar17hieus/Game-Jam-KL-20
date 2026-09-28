@@ -49,7 +49,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 55,
+      "height": 48,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
@@ -57,26 +57,8 @@
       "persistentUuid": "67c803ce-f379-447d-b495-888a33883a12",
       "width": 203,
       "x": 16,
-      "y": 421,
+      "y": 496,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 47,
-      "hidden": true,
-      "layer": "",
-      "name": "Creditsbutton",
-      "opacity": 199,
-      "persistentUuid": "3ffd502c-693f-4aeb-9d8e-d3c35346839b",
-      "width": 404,
-      "x": 7,
-      "y": 497,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1996,83 +1978,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Creditsbutton",
-      "persistentUuid": "619b6d8b-bd67-44ce-931e-a75b5d97e12d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 0
-        },
-        {
-          "name": "ShakeObject_PositionAngle",
-          "type": "ShakeObject::ShakeObject_PositionAngle"
-        }
-      ],
-      "animations": [
-        {
-          "name": "New Project (2)",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "New Project (2)5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 746,
-                        "y": 0
-                      },
-                      {
-                        "x": 746,
-                        "y": 96
-                      },
-                      {
-                        "x": 0,
-                        "y": 96
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Logo",
       "persistentUuid": "e0f64d66-3429-481d-b7be-36456ee5c3b1",
       "type": "Sprite",
@@ -2145,9 +2050,6 @@
       },
       {
         "objectName": "ButtonPlay"
-      },
-      {
-        "objectName": "Creditsbutton"
       },
       {
         "objectName": "QuitButton"
@@ -2376,51 +2278,6 @@
       "conditions": [
         {
           "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "Opacity",
-            "=",
-            "255"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "ShakeObject_PositionAngle",
-            "0.25",
-            "2.5",
-            "2.5",
-            "2.5",
-            "1",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "inverted": true,
             "value": "IsCursorOnObject"
           },
@@ -2467,36 +2324,6 @@
           },
           "parameters": [
             "QuitButton",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Creditsbutton",
             "Opacity",
             "=",
             "200"
@@ -2561,14 +2388,6 @@
           },
           "parameters": [
             "QuitButton"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "Creditsbutton"
           ]
         },
         {
@@ -2706,23 +2525,6 @@
           },
           "parameters": [
             "ButtonPlay",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.15"
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "Creditsbutton",
             ""
           ]
         },

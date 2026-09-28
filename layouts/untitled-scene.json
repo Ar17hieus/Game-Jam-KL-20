@@ -29,6 +29,7 @@
   "variables": [
     {
       "name": "hpBonus",
+      "persistentUuid": "d3d64b42-7d06-469e-8c39-5596dab7d6b2",
       "type": "number",
       "value": 0
     },
@@ -92,8 +93,8 @@
       "name": "Player",
       "persistentUuid": "217698d8-d67a-4627-8cf0-9f279c0f49d5",
       "width": 107,
-      "x": 715,
-      "y": 958,
+      "x": 280,
+      "y": 570,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -191,6 +192,227 @@
       "x": -1091,
       "y": -254,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "300dbc16-02d5-4e02-8b1d-7f8f39c895d7",
+      "width": 103,
+      "x": 455,
+      "y": -24,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "86b1098a-2575-47fa-83fc-28d1fa529eaf",
+      "width": 103,
+      "x": 374,
+      "y": -23,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "9334abb7-745c-4a08-8702-10dcc13a7f23",
+      "width": 103,
+      "x": 416,
+      "y": -84,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "5979d7b4-d5c4-461b-8b5c-06c3a771714b",
+      "width": 129,
+      "x": -466,
+      "y": 322,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "0cce4e3a-3217-4f66-a9db-4896dd5982b7",
+      "width": 112,
+      "x": -354,
+      "y": 376,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "11ae3175-5c59-4f61-aae0-71ebb7e860a9",
+      "width": 141,
+      "x": 15,
+      "y": 775,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "3e95794c-b379-49ed-aaa8-20ba2da99729",
+      "width": 141,
+      "x": 684,
+      "y": 966,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "4c888fa2-f147-49c2-a93a-39e6ed35f64b",
+      "width": 141,
+      "x": 1013,
+      "y": 609,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "5297e0f6-ba38-4553-83ef-8f9ffbcaac18",
+      "width": 117,
+      "x": -577,
+      "y": -314,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "03857054-cc52-4313-b0e4-0c6711881b60",
+      "width": 141,
+      "x": -968,
+      "y": 368,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "9453b917-54a9-4d26-9ccc-4e5fa6e2103f",
+      "width": 141,
+      "x": -1094,
+      "y": 367,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "89e963a8-6b02-4127-a3d3-d007e37c6ae8",
+      "width": 120,
+      "x": -1024,
+      "y": 300,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "crates",
+      "persistentUuid": "b9d7d163-51e9-49b8-aad5-b5f4ff1adb48",
+      "width": 81,
+      "x": 1420,
+      "y": 226,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3704,17 +3926,17 @@
       ],
       "animations": [
         {
-          "name": "NewSprite2",
+          "name": "lasereffect",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite94",
+                  "image": "lasereffect",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3734,16 +3956,16 @@
                         "y": 0
                       },
                       {
-                        "x": 32,
+                        "x": 463,
                         "y": 0
                       },
                       {
-                        "x": 32,
-                        "y": 32
+                        "x": 463,
+                        "y": 262
                       },
                       {
                         "x": 0,
-                        "y": 32
+                        "y": 262
                       }
                     ]
                   ]
@@ -5710,6 +5932,122 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "07730a2bc4cc4d118511e74915f481cacdbeb128d8100fab1350d10d7cbb0860",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 420,
+      "emitterForceMin": 20,
+      "flow": 3000,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "playerboom",
+      "particleAlpha1": 255,
+      "particleAlpha2": 255,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -360,
+      "particleAngle2": 360,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 43,
+      "particleBlue2": 43,
+      "particleColor1": "43;43;43",
+      "particleColor2": "43;43;43",
+      "particleGravityX": 0,
+      "particleGravityY": 300,
+      "particleGreen1": 43,
+      "particleGreen2": 43,
+      "particleLifeTimeMax": 3,
+      "particleLifeTimeMin": 2,
+      "particleRed1": 43,
+      "particleRed2": 43,
+      "particleSize1": 37,
+      "particleSize2": 30,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "e04fc6c1-684f-4fe8-9e5b-aebb38abb425",
+      "rendererParam1": 128,
+      "rendererParam2": 128,
+      "rendererType": "Quad",
+      "tank": 150,
+      "textureParticleName": "Confetti.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "crates",
+      "persistentUuid": "81f7233c-5bf9-4f7d-bcb1-ff83c1a730da",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled design (35).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 270
+                      },
+                      {
+                        "x": 1,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5813,6 +6151,12 @@
       },
       {
         "objectName": "Option"
+      },
+      {
+        "objectName": "playerboom"
+      },
+      {
+        "objectName": "crates"
       }
     ]
   },
@@ -5822,6 +6166,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "beginning of scene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5936,153 +6281,170 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "constants",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"incerment\"",
-                ">=",
-                "22.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"incerment\""
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "incrementation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incerment\"",
+                    ">=",
+                    "22.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"incerment\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "hpBonus",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
-              "type": "BuiltinCommonInstructions::Standard",
+              "folded": true,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "enemy",
               "conditions": [],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "hpBonus",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "enemy.Health::MaxHealth()",
+                        "<",
+                        "2 + hpBonus"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::SetMaxHealthOp"
+                      },
+                      "parameters": [
+                        "enemy",
+                        "Health",
+                        "=",
+                        "2 + hpBonus",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::Heal"
+                      },
+                      "parameters": [
+                        "enemy",
+                        "Health",
+                        "hpBonus",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "enemy",
-          "conditions": [],
-          "actions": [],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
+              "folded": true,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "stronggeradversary",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "enemy.Health::MaxHealth()",
-                    "<",
-                    "2 + hpBonus"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::SetMaxHealthOp"
-                  },
-                  "parameters": [
-                    "enemy",
-                    "Health",
-                    "=",
-                    "2 + hpBonus",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Heal"
-                  },
-                  "parameters": [
-                    "enemy",
-                    "Health",
-                    "hpBonus",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "stronggeradversary",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "stronggeradversary.Health::MaxHealth()",
-                    "<",
-                    "1 + hpBonus"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::SetMaxHealthOp"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    "Health",
-                    "=",
-                    "1 + hpBonus",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Heal"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    "Health",
-                    "hpBonus",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "stronggeradversary.Health::MaxHealth()",
+                        "<",
+                        "1 + hpBonus"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::SetMaxHealthOp"
+                      },
+                      "parameters": [
+                        "stronggeradversary",
+                        "Health",
+                        "=",
+                        "1 + hpBonus",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::Heal"
+                      },
+                      "parameters": [
+                        "stronggeradversary",
+                        "Health",
+                        "hpBonus",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6167,6 +6529,46 @@
                 "NewTileMap",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "stronggeradversary",
+                "NewTileMap",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "crates",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "enemy",
+                "crates",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "stronggeradversary",
+                "crates",
+                ""
+              ]
             }
           ]
         }
@@ -6178,6 +6580,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6187,6 +6590,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6208,6 +6612,47 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetChanceToDodgeOp"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "=",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "playerboom",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -6591,6 +7036,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8170,7 +8616,7 @@
                         "lasereffect",
                         "Opacity",
                         "=",
-                        "200"
+                        "50"
                       ]
                     }
                   ]
@@ -8259,7 +8705,7 @@
                         "lasereffect",
                         "Tween",
                         "\"accelIF\"",
-                        "80",
+                        "30",
                         "\"swingTo\"",
                         "3.8",
                         "3.9"
@@ -8638,6 +9084,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "lightning blast",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8938,6 +9385,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9053,18 +9501,159 @@
               ]
             }
           ]
-        },
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "enemy",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Bullet",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Slash",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "thunder",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "boom",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
               },
               "parameters": [
-                "wave1done",
-                "True",
+                "enemy",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "20",
+                "20",
+                "0",
+                "0.05",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "enemy",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.025"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Slash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "thunder",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "enemy",
+                "",
+                "",
                 ""
               ]
             }
@@ -9072,542 +9661,460 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "Delete"
               },
               "parameters": [
-                "wave1done",
-                "True",
+                "enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "soundshelfstudio-ui-warning-buzz-515667.mp3",
+                "",
+                "80",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "15",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "lasereffect",
+                "Tween",
+                "\"dmgd\"",
+                "40",
+                "\"linear\"",
+                "0.1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "lasereffect",
+                "Tween",
+                "\"dmgd\"",
+                "0",
+                "\"linear\"",
+                "0.1",
                 ""
               ]
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "collisions",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+        },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "enemy",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "enemy",
-                        "Bullet",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "enemy",
-                        "Slash",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "enemy",
-                        "thunder",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "enemy",
-                        "boom",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                  },
-                  "parameters": [
-                    "enemy",
-                    "ShakeObject_PositionAngle",
-                    "0.5",
-                    "20",
-                    "20",
-                    "0",
-                    "0.05",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "enemy",
-                    "Health",
-                    "1",
-                    "no",
-                    "no",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.025"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullet",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Slash",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "thunder",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "enemy",
+                "Health",
+                "<=",
+                "0",
+                ""
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "enemy",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "15",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "enemy",
-                    "Health",
-                    "<=",
-                    "0",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "RedExplosion",
-                    "enemy.X()",
-                    "enemy.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.025"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "enemy",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Heal"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "3",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GameScore",
-                    "+",
-                    "2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "stronggeradversary",
-                        "Bullet",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "stronggeradversary",
-                        "Slash",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "stronggeradversary",
-                        "thunder",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "stronggeradversary",
-                        "boom",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    "ShakeObject_PositionAngle",
-                    "0.5",
-                    "20",
-                    "20",
-                    "0",
-                    "0.05",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    "Health",
-                    "1",
-                    "no",
-                    "no",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.025"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Bullet",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Slash",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "thunder",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "stronggeradversary",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "25",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    "Health",
-                    "<=",
-                    "0",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "RedExplosion",
-                    "stronggeradversary.X()",
-                    "stronggeradversary.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.025"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "stronggeradversary",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Heal"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GameScore",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
-          "parameters": []
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.025"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "enemy.X()",
+                "enemy.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "dragon-studio-loud-explosion-425457.mp3",
+                "",
+                "45",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameScore",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "Bullet",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "Slash",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "thunder",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "boom",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "stronggeradversary",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "20",
+                "20",
+                "0",
+                "0.05",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "stronggeradversary",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.025"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Slash",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "thunder",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "stronggeradversary",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "stronggeradversary",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "soundshelfstudio-ui-warning-buzz-515667.mp3",
+                "",
+                "80",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "25",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "lasereffect",
+                "Tween",
+                "\"dmgd\"",
+                "20",
+                "\"linear\"",
+                "0.05",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "lasereffect",
+                "Tween",
+                "\"dmgd\"",
+                "0",
+                "\"linear\"",
+                "0.05",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "stronggeradversary",
+                "Health",
+                "<=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.025"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "stronggeradversary.X()",
+                "stronggeradversary.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "dragon-studio-loud-explosion-425457.mp3",
+                "",
+                "45",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "stronggeradversary",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Heal"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameScore",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
       "parameters": []
     }
   ],
