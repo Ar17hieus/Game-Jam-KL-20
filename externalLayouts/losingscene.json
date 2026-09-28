@@ -34,6 +34,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RestartButton",
+      "persistentUuid": "dda2e7b3-81b9-4876-bdfb-ef4db50b2815",
+      "width": 0,
+      "x": 96,
+      "y": 304,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HomeButton",
+      "persistentUuid": "f99f3c8f-7b52-41a8-8623-b02cff17d1f6",
+      "width": 0,
+      "x": 448,
+      "y": 304,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
