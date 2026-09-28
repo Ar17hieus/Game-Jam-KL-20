@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "intro",
   "gdVersion": {
     "build": 282,
     "major": 5,
@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\myleg\\Downloads\\1NFINITY--Z3R0",
+    "latestCompilationDirectory": "D:\\InfinityZero",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3413,6 +3413,190 @@
         "name": "Button_-_PS_Options.webp",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite135",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite136",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite137",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite138",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite139",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite140",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite141",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite142",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite143",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite144",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite145",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite146",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite147",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite148",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite149",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/LightGlow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LightGlow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/GDevelop/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
+          "name": "LightGlow.png"
+        }
+      },
+      {
+        "file": "yodguard-lightning-magic-4-378647.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yodguard-lightning-magic-4-378647.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "dragon-studio-lightning-strike-386161.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dragon-studio-lightning-strike-386161.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "yodguard-lightning-magic-4-378646.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "yodguard-lightning-magic-4-378646.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3421,7 +3605,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "GameScore",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3441,6 +3631,37 @@
     }
   ],
   "externalEvents": [],
+  "tests": [
+    {
+      "description": "Verifies enemy HP scaling: base 2/2, then 3/3 for both surviving and newly spawned enemies after the 15s tick.",
+      "lastRunAt": 1790595096408,
+      "lastRunDurationMs": 13571,
+      "lastRunFramesExecuted": 976,
+      "lastRunStatus": "passed",
+      "name": "Enemy HP scales with time",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Untitled scene');",
+        "const keepAway = () => { const p = harness.getObjects('Player')[0]; if (p) harness.setObjectPosition(e.id, p.x + 2000, p.y + 1200); };",
+        "const e = harness.spawn('enemy', 2000, 1000);",
+        "await harness.stepFrames(5);",
+        "let st = harness.getObjects('enemy').find(o => o.id === e.id);",
+        "harness.assert(st.behaviors.Health.state.Health === 2 && st.behaviors.Health.state.MaxHealth === 2, 'Enemy starts at 2/2 HP before the first scaling tick (got ' + st.behaviors.Health.state.Health + '/' + st.behaviors.Health.state.MaxHealth + ')');",
+        "await harness.stepFrames(960, { onFrame: keepAway });",
+        "st = harness.getObjects('enemy').find(o => o.id === e.id);",
+        "harness.assert(!!st, 'the enemy survived past the 15s scaling tick');",
+        "harness.assert(!!st && st.behaviors.Health.state.MaxHealth === 3, 'Enemy max health scaled to 3 after 15s (got ' + (st ? st.behaviors.Health.state.MaxHealth : 'n/a') + ')');",
+        "harness.assert(!!st && st.behaviors.Health.state.Health === 3, 'Enemy current health also scaled to 3 (got ' + (st ? st.behaviors.Health.state.Health : 'n/a') + ')');",
+        "harness.removeObject(e.id);",
+        "await harness.stepFrames(5);",
+        "const e2 = harness.spawn('enemy', 2000, 1000);",
+        "await harness.stepFrames(5);",
+        "const o2 = harness.getObjects('enemy').find(x => x.id === e2.id);",
+        "harness.assert(o2.behaviors.Health.state.MaxHealth === 3 && o2.behaviors.Health.state.Health === 3, 'A freshly spawned enemy after 15s also starts at 3/3 HP (got ' + o2.behaviors.Health.state.Health + '/' + o2.behaviors.Health.state.MaxHealth + ')');",
+        ""
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3493,6 +3714,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
     }
   ],
   "externalLayouts": [

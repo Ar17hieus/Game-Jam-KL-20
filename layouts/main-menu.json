@@ -9,7 +9,7 @@
   "title": "",
   "v": 249,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.49508400737488867,
+    "snap": true,
+    "zoomFactor": 0.8141881203709912,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -111,8 +111,8 @@
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
-      "x": -1,
-      "y": -4,
+      "x": 0,
+      "y": 0,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -128,8 +128,8 @@
       "name": "Logo",
       "persistentUuid": "e5867e02-3c1c-4a59-bf23-080fecdc926a",
       "width": 0,
-      "x": -25,
-      "y": 69,
+      "x": 76,
+      "y": 48,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -2247,6 +2247,17 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetMusicChannelVolume"
+          },
+          "parameters": [
+            "",
+            "5",
+            "=",
+            "100"
+          ]
+        },
         {
           "type": {
             "value": "PlaySound"

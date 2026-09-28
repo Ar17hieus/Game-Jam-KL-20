@@ -28,6 +28,11 @@
   "objectsGroups": [],
   "variables": [
     {
+      "name": "hpBonus",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "wave1start",
       "persistentUuid": "d487bf37-3ddb-45b6-bf4a-882189203e9c",
       "type": "boolean",
@@ -87,8 +92,8 @@
       "name": "Player",
       "persistentUuid": "217698d8-d67a-4627-8cf0-9f279c0f49d5",
       "width": 107,
-      "x": 313,
-      "y": 509,
+      "x": 715,
+      "y": 958,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -105,8 +110,8 @@
       "name": "spawners",
       "persistentUuid": "49f9610a-ec09-4601-a30b-a6163b949e9d",
       "width": 139,
-      "x": 1278,
-      "y": -8,
+      "x": 1328,
+      "y": -310,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,8 +170,26 @@
       "name": "spawners",
       "persistentUuid": "c1eb4106-f277-4fca-a879-e642665c726f",
       "width": 159,
-      "x": -834,
-      "y": 772,
+      "x": -718,
+      "y": 974,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 126,
+      "hidden": true,
+      "keepRatio": true,
+      "layer": "",
+      "name": "spawners",
+      "persistentUuid": "fc0eadd4-d045-42af-8c32-e24d44cbd8b8",
+      "width": 139,
+      "x": -1091,
+      "y": -254,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -2553,7 +2576,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 2,
+          "Health": 100,
           "CurrentHealth": 0,
           "MaxHealth": 2,
           "DamageCooldown": 0.03,
@@ -3993,7 +4016,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 1,
+          "Health": 100,
           "CurrentHealth": 0,
           "MaxHealth": 1,
           "DamageCooldown": 0.03,
@@ -5639,6 +5662,54 @@
           ]
         }
       ]
+    },
+    {
+      "additive": true,
+      "assetStoreId": "b87985c7d940ec893b61769fbdc76585c5a871da0bd68799eeda96791b3b763d",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 140,
+      "emitterForceMin": 80,
+      "flow": 400,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "RedExplosion",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 64,
+      "particleBlue2": 0,
+      "particleColor1": "255;255;64",
+      "particleColor2": "255;0;0",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 1.2,
+      "particleLifeTimeMin": 0.6,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 50,
+      "particleSize2": 200,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "a6a0e7c6-90de-4d77-afe1-d7974634d4a1",
+      "rendererParam1": 0,
+      "rendererParam2": 0,
+      "rendererType": "Quad",
+      "tank": 100,
+      "textureParticleName": "LightGlow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -5673,6 +5744,9 @@
       },
       {
         "objectName": "enemy"
+      },
+      {
+        "objectName": "RedExplosion"
       },
       {
         "objectName": "boom"
@@ -5748,7 +5822,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "beginning of scene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5776,15 +5849,6 @@
                 "=",
                 "0.01",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"spawn\""
               ]
             },
             {
@@ -5818,7 +5882,7 @@
                 "",
                 "Train Battle (In-Game Version) - Block Tales OST2.mp3",
                 "yes",
-                "70",
+                "80",
                 "1"
               ]
             },
@@ -5832,6 +5896,34 @@
                 "0",
                 "0",
                 "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameScore",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"incerment\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"spawn\""
               ]
             }
           ]
@@ -5848,6 +5940,150 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"incerment\"",
+                ">=",
+                "22.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"incerment\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "hpBonus",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "enemy",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "enemy.Health::MaxHealth()",
+                    "<",
+                    "2 + hpBonus"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetMaxHealthOp"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Health",
+                    "=",
+                    "2 + hpBonus",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Heal"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Health",
+                    "hpBonus",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M3KWGDKDH5PEGV36SYSRJHCP",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "stronggeradversary",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "stronggeradversary.Health::MaxHealth()",
+                    "<",
+                    "1 + hpBonus"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::SetMaxHealthOp"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "Health",
+                    "=",
+                    "1 + hpBonus",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Heal"
+                  },
+                  "parameters": [
+                    "stronggeradversary",
+                    "Health",
+                    "hpBonus",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -5942,7 +6178,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5952,7 +6187,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5980,7 +6214,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"main menu\"",
+                    "\"WinningScene\"",
                     ""
                   ]
                 }
@@ -6357,7 +6591,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8405,7 +8638,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "lightning blast",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8498,8 +8730,90 @@
                         "=",
                         "\"NewSprite2\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "dragon-studio-lightning-strike-386161.mp3",
+                        "",
+                        "80",
+                        "1"
+                      ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "thunder",
+                        "stronggeradversary",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "boom",
+                        "stronggeradversary.X()",
+                        "stronggeradversary.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "boom",
+                        "Scale",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "boom",
+                        "Animation",
+                        "=",
+                        "\"NewSprite2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "dragon-studio-lightning-strike-386161.mp3",
+                        "",
+                        "80",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -8560,6 +8874,18 @@
                         "=",
                         "0",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "yodguard-lightning-magic-4-378646.mp3",
+                        "",
+                        "80",
+                        "4"
                       ]
                     },
                     {
@@ -8650,14 +8976,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -8972,6 +9290,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RedExplosion",
+                    "enemy.X()",
+                    "enemy.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -9000,13 +9330,12 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "enemy",
-                    "KC",
+                    "GameScore",
                     "+",
-                    "1"
+                    "2"
                   ]
                 }
               ]
@@ -9198,6 +9527,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RedExplosion",
+                    "stronggeradversary.X()",
+                    "stronggeradversary.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -9226,11 +9567,10 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "enemy",
-                    "KC",
+                    "GameScore",
                     "+",
                     "1"
                   ]
