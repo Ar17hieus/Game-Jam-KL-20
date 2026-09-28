@@ -1312,7 +1312,7 @@
       {
         "file": "infinityMainMech.webp",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"infinityMainMech.webp\",\"extension\":\".png\"}",
         "name": "infinityMainMech.webp",
         "smoothed": false,
         "userAdded": false
@@ -1596,6 +1596,321 @@
         "name": "Attack15",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "soundreality-riser-the-plane-391179-[AudioTrimmer.com]2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "soundreality-riser-the-plane-391179-[AudioTrimmer.com]2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "soundshelfstudio-ui-hyperdrive-ready-ping-537579.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "soundshelfstudio-ui-hyperdrive-ready-ping-537579.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Train Battle (In-Game Version) - Block Tales OST2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Train Battle (In-Game Version) - Block Tales OST2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bronze bar background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze bar background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/243af986cfe00f54732f8c0800fb77bc516087c6bc96893f0f83e5dacbca0f13_Bronze bar background.png",
+          "name": "Bronze bar background.png"
+        }
+      },
+      {
+        "file": "assets/Brown LCD Bar Fill3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/dedf79e6421b8ab3ba5ede3a90bef87412c248afcd4eb4881cd94dada5538140_Brown LCD Bar Fill.png",
+          "name": "Brown LCD Bar Fill.png"
+        }
+      },
+      {
+        "file": "assets/Green LCD Bar Fill3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green LCD Bar Fill.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/55034bb02ed0cbeede3da64dcf05d3590abee4a8fa69657ed5d461f31d2f1df0_Green LCD Bar Fill.png",
+          "name": "Green LCD Bar Fill.png"
+        }
+      },
+      {
+        "file": "assets/Copper Bar Border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "file": "assets/Framed Pixel Red Fill Bar3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/TILEMAP_LVL_1_AND_2_recent_2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/TILEMAP_LVL_1_AND_2_recent_2.png2.png\"}",
+        "name": "TILEMAP_LVL_1_AND_2_recent_2.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TILEMAP_LVL_1_AND_2_recent_2.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "TILEMAP_LVL_1_AND_2_recent_2.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "spasceship tilemap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spasceship tilemap.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled design (34).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (34).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled design (34).png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Untitled design (34).png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney High Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "2d361282cf7e5646ed37f5eb34beea0802af5f6bf922414f9dde6a825141f979_Kenney High Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/2d361282cf7e5646ed37f5eb34beea0802af5f6bf922414f9dde6a825141f979_Kenney High Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite92",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite93.png\"}",
+        "name": "NewSprite93",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1660,6 +1975,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/idletracker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
     }
   ],
   "externalLayouts": []
