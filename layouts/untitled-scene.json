@@ -20,13 +20,45 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690471,
+    "zoomFactor": 0.6040838749988929,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "wave1start",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave1done",
+      "persistentUuid": "1b4f9703-64aa-4ac4-8bca-98a34a05a4ba",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave2start",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave2done",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave3start",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "wave3done",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -248,7 +280,7 @@
           "value": false
         },
         {
-          "name": "Missiles",
+          "name": "electrified_",
           "persistentUuid": "843eda92-08ff-4066-ba63-cc38d165f1dd",
           "type": "boolean",
           "value": false
@@ -834,7 +866,7 @@
           "Health": 2,
           "CurrentHealth": 0,
           "MaxHealth": 2,
-          "DamageCooldown": 0,
+          "DamageCooldown": 0.03,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
           "DamageToBeApplied": 0,
@@ -1027,7 +1059,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
+                  "image": "NewSprite78",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1043,20 +1075,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
+                        "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 46,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 46,
-                        "y": 256
+                        "x": 256,
+                        "y": 35
                       },
                       {
-                        "x": 11,
-                        "y": 256
+                        "x": 0,
+                        "y": 35
                       }
                     ]
                   ]
@@ -1108,6 +1140,48 @@
         "MaxValue": 115,
         "EasingDuration": 0
       }
+    },
+    {
+      "assetStoreId": "39b5fe0a8bca0e591a8b8a74c94ee3e6f80192ac548e4fe52c6102de1c0e22ab",
+      "name": "BronzeGreenBar",
+      "persistentUuid": "01addbd6-a08c-47da-8183-b94ffa97c3ee",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Bronze Green Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "ShowLabel": false,
+        "PreviousHighValueDuration": 1,
+        "BarTopPadding": 4,
+        "BarLeftPadding": 25,
+        "BarRightPadding": 25,
+        "BarBottomPadding": 5,
+        "InitialValue": 8,
+        "MaxValue": 16,
+        "EasingDuration": 0
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "persistentUuid": "36ab74f4-50a8-4486-aaba-2cf9bd5d0464",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Copper Red Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1142,6 +1216,12 @@
       },
       {
         "objectName": "spawners"
+      },
+      {
+        "objectName": "BronzeGreenBar"
+      },
+      {
+        "objectName": "CopperRedBar"
       }
     ]
   },
@@ -1151,6 +1231,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "beginning of scene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1211,6 +1292,19 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "Train Battle (In-Game Version) - Block Tales OST.mp3",
+                "1",
+                "yes",
+                "80",
+                "1"
+              ]
             }
           ]
         }
@@ -1222,6 +1316,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "constants",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1283,6 +1378,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "nanopaste",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1326,6 +1422,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1527,10 +1624,236 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "slash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"R1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"L1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "gargamel10-sword-slashing-game-sound-effect-1-379228.mp3",
+                        "",
+                        "20",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"RB\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"LB\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "daviddumaisaudio-sword-slash-with-metallic-impact-185435.mp3",
+                        "",
+                        "20",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"R1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Gamepads::IsButtonJustPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "\"L1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "slashvalue",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "daviddumaisaudio-sword-slash-and-swing-185431.mp3",
+                        "",
+                        "20",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -1592,6 +1915,17 @@
                         "",
                         "1",
                         "\"L1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
                         ""
                       ]
                     }
@@ -1702,6 +2036,17 @@
                         "\"L1\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -1808,6 +2153,17 @@
                         "",
                         "1",
                         "\"L1\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
                         ""
                       ]
                     }
@@ -1918,6 +2274,17 @@
                         "\"Down\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2010,6 +2377,17 @@
                         "1",
                         "\"Right\"",
                         "\"Up\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
                         ""
                       ]
                     }
@@ -2117,6 +2495,17 @@
                         "\"Down\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2222,6 +2611,17 @@
                         "\"Down\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2325,6 +2725,17 @@
                         "1",
                         "\"Right\"",
                         "\"Up\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "rayofdoom",
+                        "False",
                         ""
                       ]
                     }
@@ -2438,9 +2849,21 @@
                       },
                       "parameters": [
                         "",
-                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com].mp3",
+                        "Screen Recording 2026-09-27 160730-[AudioTrimmer.com]2.mp3",
                         "",
                         "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "freesound_community-shield-recharging-107016-[AudioTrimmer.com]-[AudioTrimmer.com]2.mp3",
+                        "",
+                        "50",
                         "1"
                       ]
                     },
@@ -2482,8 +2905,21 @@
                         "Player",
                         "FireBullet",
                         "=",
-                        "0.1",
+                        "0.05",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "soundreality-riser-the-plane-391179-[AudioTrimmer.com].mp3",
+                        "2",
+                        "no",
+                        "50",
+                        "0.0001"
                       ]
                     }
                   ]
@@ -2612,6 +3048,16 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "FireBullet::FireBullet::Fire"
                       },
                       "parameters": [
@@ -2687,6 +3133,17 @@
                         "\"R2\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "BEWM",
+                        "True",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2755,6 +3212,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "lightning blast",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2769,18 +3227,29 @@
                       "parameters": [
                         "",
                         "1",
-                        "\"L1\"",
+                        "\"Square\"",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "Gamepads::IsButtonJustPressed"
+                        "value": "BooleanObjectVariable"
                       },
                       "parameters": [
-                        "",
-                        "1",
-                        "\"R1\"",
+                        "Player",
+                        "rayofdoom",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "electrified_",
+                        "True",
                         ""
                       ]
                     }
@@ -2826,7 +3295,18 @@
                       "parameters": [
                         "NewSprite",
                         "enemy",
-                        "25000",
+                        "12500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "electrified_",
+                        "False",
                         ""
                       ]
                     }
@@ -2846,6 +3326,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "enemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2855,6 +3336,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2864,13 +3346,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "SceneJustBegins"
                   },
                   "parameters": [
-                    "",
-                    "\"spawn\"",
-                    ">=",
-                    "1.157"
+                    ""
                   ]
                 }
               ],
@@ -2898,11 +3377,629 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
                   },
                   "parameters": [
                     "",
-                    "\"spawn\""
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickRandomInstance"
+                  },
+                  "parameters": [
+                    "",
+                    "spawners"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy",
+                    "spawners.X()",
+                    "spawners.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "wave1done",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -3008,6 +4105,41 @@
                     "no",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Slash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    ""
+                  ]
                 }
               ]
             },
@@ -3077,6 +4209,14 @@
                     "enemy",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
                 }
               ]
             }
@@ -3102,203 +4242,40 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "",
+      "folded": true,
+      "name": "stuff that i don't get but shouldn't touch",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "rayofdoom",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResumeSoundChannel"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"R1\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"L1\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "daviddumaisaudio-sword-slash-and-swing-185431.mp3",
-            "",
-            "20",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"RB\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"LB\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "=",
-            "2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "daviddumaisaudio-sword-slash-with-metallic-impact-185435.mp3",
-            "",
-            "20",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"R1\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Gamepads::IsButtonJustPressed"
-          },
-          "parameters": [
-            "",
-            "1",
-            "\"L1\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "=",
-            "3"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "Player",
-            "slashvalue",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "gargamel10-sword-slashing-game-sound-effect-1-379228.mp3",
-            "",
-            "20",
-            "1"
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3441,6 +4418,17 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "BEWM",
+            "False",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -3466,6 +4454,27 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "soundshelfstudio-ui-hyperdrive-ready-ping-537581.mp3",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -3474,27 +4483,49 @@
       "conditions": [
         {
           "type": {
-            "value": "BooleanObjectVariable"
+            "value": "BooleanVariable"
           },
           "parameters": [
-            "Player",
-            "rayofdoom",
+            "wave1done",
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SceneInstancesCount"
+          },
+          "parameters": [
+            "",
+            "enemy",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "ResumeSoundChannel"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "",
-            "1"
+            "wave2start",
+            "True",
+            ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
