@@ -1915,7 +1915,7 @@
       {
         "file": "assets/offfcialtd5logo2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo2.png\"}",
         "name": "offfcialtd5logo2",
         "smoothed": false,
         "userAdded": false
@@ -1923,7 +1923,7 @@
       {
         "file": "assets/offfcialtd5logo3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo3.png\"}",
         "name": "offfcialtd5logo3",
         "smoothed": false,
         "userAdded": false
@@ -1931,7 +1931,7 @@
       {
         "file": "assets/offfcialtd5logo4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo4.png\"}",
         "name": "offfcialtd5logo4",
         "smoothed": false,
         "userAdded": false
@@ -1939,7 +1939,7 @@
       {
         "file": "assets/offfcialtd5logo5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo5.png\"}",
         "name": "offfcialtd5logo5",
         "smoothed": false,
         "userAdded": false
@@ -1947,7 +1947,7 @@
       {
         "file": "assets/offfcialtd5logo6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo6.png\"}",
         "name": "offfcialtd5logo6",
         "smoothed": false,
         "userAdded": false
@@ -1955,7 +1955,7 @@
       {
         "file": "assets/offfcialtd5logo7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo7.png\"}",
         "name": "offfcialtd5logo7",
         "smoothed": false,
         "userAdded": false
@@ -1963,7 +1963,7 @@
       {
         "file": "assets/offfcialtd5logo8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo8.png\"}",
         "name": "offfcialtd5logo8",
         "smoothed": false,
         "userAdded": false
@@ -1971,7 +1971,7 @@
       {
         "file": "assets/offfcialtd5logo9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo9.png\"}",
         "name": "offfcialtd5logo9",
         "smoothed": false,
         "userAdded": false
@@ -1979,7 +1979,7 @@
       {
         "file": "assets/offfcialtd5logo10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo10.png\"}",
         "name": "offfcialtd5logo10",
         "smoothed": false,
         "userAdded": false
@@ -1987,7 +1987,7 @@
       {
         "file": "assets/offfcialtd5logo11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo11.png\"}",
         "name": "offfcialtd5logo11",
         "smoothed": false,
         "userAdded": false
@@ -1995,7 +1995,7 @@
       {
         "file": "assets/offfcialtd5logo12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo12.png\"}",
         "name": "offfcialtd5logo12",
         "smoothed": false,
         "userAdded": false
@@ -2003,7 +2003,7 @@
       {
         "file": "assets/offfcialtd5logo13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo13.png\"}",
         "name": "offfcialtd5logo13",
         "smoothed": false,
         "userAdded": false
@@ -2011,7 +2011,7 @@
       {
         "file": "assets/offfcialtd5logo14.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo14.png\"}",
         "name": "offfcialtd5logo14",
         "smoothed": false,
         "userAdded": false
@@ -2019,7 +2019,7 @@
       {
         "file": "assets/offfcialtd5logo15.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo15.png\"}",
         "name": "offfcialtd5logo15",
         "smoothed": false,
         "userAdded": false
@@ -2027,7 +2027,7 @@
       {
         "file": "assets/offfcialtd5logo16.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo16.png\"}",
         "name": "offfcialtd5logo16",
         "smoothed": false,
         "userAdded": false
@@ -2035,7 +2035,7 @@
       {
         "file": "assets/offfcialtd5logo17.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo17.png\"}",
         "name": "offfcialtd5logo17",
         "smoothed": false,
         "userAdded": false
@@ -2043,7 +2043,7 @@
       {
         "file": "assets/offfcialtd5logo18.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo18.png\"}",
         "name": "offfcialtd5logo18",
         "smoothed": false,
         "userAdded": false
@@ -2051,7 +2051,7 @@
       {
         "file": "assets/offfcialtd5logo19.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo19.png\"}",
         "name": "offfcialtd5logo19",
         "smoothed": false,
         "userAdded": false
@@ -2059,7 +2059,7 @@
       {
         "file": "assets/offfcialtd5logo20.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo20.png\"}",
         "name": "offfcialtd5logo20",
         "smoothed": false,
         "userAdded": false
@@ -2067,7 +2067,7 @@
       {
         "file": "assets/offfcialtd5logo21.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo21.png\"}",
         "name": "offfcialtd5logo21",
         "smoothed": false,
         "userAdded": false
@@ -2075,7 +2075,7 @@
       {
         "file": "assets/offfcialtd5logo22.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo22.png\"}",
         "name": "offfcialtd5logo22",
         "smoothed": false,
         "userAdded": false
@@ -2083,7 +2083,7 @@
       {
         "file": "assets/offfcialtd5logo23.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo23.png\"}",
         "name": "offfcialtd5logo23",
         "smoothed": false,
         "userAdded": false
@@ -2091,7 +2091,7 @@
       {
         "file": "assets/offfcialtd5logo24.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo24.png\"}",
         "name": "offfcialtd5logo24",
         "smoothed": false,
         "userAdded": false
@@ -2099,7 +2099,7 @@
       {
         "file": "assets/offfcialtd5logo25.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo25.png\"}",
         "name": "offfcialtd5logo25",
         "smoothed": false,
         "userAdded": false
@@ -2107,7 +2107,7 @@
       {
         "file": "assets/offfcialtd5logo26.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo26.png\"}",
         "name": "offfcialtd5logo26",
         "smoothed": false,
         "userAdded": false
@@ -2115,7 +2115,7 @@
       {
         "file": "assets/offfcialtd5logo27.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo27.png\"}",
         "name": "offfcialtd5logo27",
         "smoothed": false,
         "userAdded": false
@@ -2123,7 +2123,7 @@
       {
         "file": "assets/offfcialtd5logo28.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo28.png\"}",
         "name": "offfcialtd5logo28",
         "smoothed": false,
         "userAdded": false
@@ -2131,7 +2131,7 @@
       {
         "file": "assets/offfcialtd5logo29.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo29.png\"}",
         "name": "offfcialtd5logo29",
         "smoothed": false,
         "userAdded": false
@@ -2139,7 +2139,7 @@
       {
         "file": "assets/offfcialtd5logo30.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo30.png\"}",
         "name": "offfcialtd5logo30",
         "smoothed": false,
         "userAdded": false
@@ -2147,7 +2147,7 @@
       {
         "file": "assets/offfcialtd5logo31.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo31.png\"}",
         "name": "offfcialtd5logo31",
         "smoothed": false,
         "userAdded": false
@@ -2155,7 +2155,7 @@
       {
         "file": "assets/offfcialtd5logo32.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo32.png\"}",
         "name": "offfcialtd5logo32",
         "smoothed": false,
         "userAdded": false
@@ -2163,7 +2163,7 @@
       {
         "file": "assets/offfcialtd5logo33.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo33.png\"}",
         "name": "offfcialtd5logo33",
         "smoothed": false,
         "userAdded": false
@@ -2171,7 +2171,7 @@
       {
         "file": "assets/offfcialtd5logo34.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo34.png\"}",
         "name": "offfcialtd5logo34",
         "smoothed": false,
         "userAdded": false
@@ -2179,7 +2179,7 @@
       {
         "file": "assets/offfcialtd5logo35.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo35.png\"}",
         "name": "offfcialtd5logo35",
         "smoothed": false,
         "userAdded": false
@@ -2187,7 +2187,7 @@
       {
         "file": "assets/offfcialtd5logo36.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo36.png\"}",
         "name": "offfcialtd5logo36",
         "smoothed": false,
         "userAdded": false
@@ -2195,7 +2195,7 @@
       {
         "file": "assets/offfcialtd5logo37.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo37.png\"}",
         "name": "offfcialtd5logo37",
         "smoothed": false,
         "userAdded": false
@@ -2203,7 +2203,7 @@
       {
         "file": "assets/offfcialtd5logo38.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo38.png\"}",
         "name": "offfcialtd5logo38",
         "smoothed": false,
         "userAdded": false
@@ -2211,7 +2211,7 @@
       {
         "file": "assets/offfcialtd5logo39.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo39.png\"}",
         "name": "offfcialtd5logo39",
         "smoothed": false,
         "userAdded": false
@@ -2219,7 +2219,7 @@
       {
         "file": "assets/offfcialtd5logo40.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo40.png\"}",
         "name": "offfcialtd5logo40",
         "smoothed": false,
         "userAdded": false
@@ -2227,7 +2227,7 @@
       {
         "file": "assets/offfcialtd5logo41.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo41.png\"}",
         "name": "offfcialtd5logo41",
         "smoothed": false,
         "userAdded": false
@@ -2235,7 +2235,7 @@
       {
         "file": "assets/offfcialtd5logo42.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo42.png\"}",
         "name": "offfcialtd5logo42",
         "smoothed": false,
         "userAdded": false
@@ -2243,7 +2243,7 @@
       {
         "file": "assets/offfcialtd5logo43.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo43.png\"}",
         "name": "offfcialtd5logo43",
         "smoothed": false,
         "userAdded": false
@@ -2251,7 +2251,7 @@
       {
         "file": "assets/offfcialtd5logo44.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo44.png\"}",
         "name": "offfcialtd5logo44",
         "smoothed": false,
         "userAdded": false
@@ -2259,7 +2259,7 @@
       {
         "file": "assets/offfcialtd5logo45.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo45.png\"}",
         "name": "offfcialtd5logo45",
         "smoothed": false,
         "userAdded": false
@@ -2267,7 +2267,7 @@
       {
         "file": "assets/offfcialtd5logo46.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo46.png\"}",
         "name": "offfcialtd5logo46",
         "smoothed": false,
         "userAdded": false
@@ -2275,7 +2275,7 @@
       {
         "file": "assets/offfcialtd5logo47.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo47.png\"}",
         "name": "offfcialtd5logo47",
         "smoothed": false,
         "userAdded": false
@@ -2283,7 +2283,7 @@
       {
         "file": "assets/offfcialtd5logo48.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo48.png\"}",
         "name": "offfcialtd5logo48",
         "smoothed": false,
         "userAdded": false
@@ -2291,7 +2291,7 @@
       {
         "file": "assets/offfcialtd5logo49.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo49.png\"}",
         "name": "offfcialtd5logo49",
         "smoothed": false,
         "userAdded": false
@@ -2299,7 +2299,7 @@
       {
         "file": "assets/offfcialtd5logo50.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo50.png\"}",
         "name": "offfcialtd5logo50",
         "smoothed": false,
         "userAdded": false
@@ -2307,7 +2307,7 @@
       {
         "file": "assets/offfcialtd5logo51.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo51.png\"}",
         "name": "offfcialtd5logo51",
         "smoothed": false,
         "userAdded": false
@@ -2315,7 +2315,7 @@
       {
         "file": "assets/offfcialtd5logo52.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo52.png\"}",
         "name": "offfcialtd5logo52",
         "smoothed": false,
         "userAdded": false
@@ -2323,8 +2323,275 @@
       {
         "file": "assets/offfcialtd5logo53.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/offfcialtd5logo53.png\"}",
         "name": "offfcialtd5logo53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme)2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/offfcialtd5logo54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "offfcialtd5logo54",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Rocket Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "file": "Sprite-0003-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0003-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bullet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bullet",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bullet2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Bullet2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Down16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Down16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/5ae0a579dbe67c533d19b92f1c1c84cec739b7c22a689823c9e1ba19ee883c36_8BitOperatorPlus8Regular.png",
+          "name": "8BitOperatorPlus8Regular.png"
+        }
+      },
+      {
+        "file": "assets/White 1Bit Square Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\White 1Bit Square Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/d563779bca275fa880fad9892f45acb3e786721282fed8b3e3327e7c3931d963_White 1Bit Square Border.png",
+          "name": "White 1Bit Square Border.png"
+        }
+      },
+      {
+        "file": "assets/White 1Bit Square Buffer Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\White 1Bit Square Buffer Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/058ef6efd11fc7f8034e528365e8196296b872e361fcb37602050b0a8ca36319_White 1Bit Square Buffer Fill Bar.png",
+          "name": "White 1Bit Square Buffer Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/White 1Bit Square Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\White 1Bit Square Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/b3c0dd702fc3b2573f50826a90f1c02a3c46b5c54f80ad8c210522f84c68a0e2_White 1Bit Square Fill Bar.png",
+          "name": "White 1Bit Square Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/8826f8477c073a233f09326bd5bb208fdd51415e6bfdc3fe8c4b75ab5635521e_8BitOperatorPlus8Regular.fnt",
+          "name": "8BitOperatorPlus8Regular.fnt"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Pixel Frog/5ae0a579dbe67c533d19b92f1c1c84cec739b7c22a689823c9e1ba19ee883c36_8BitOperatorPlus8Regular.png",
+          "name": "8BitOperatorPlus8Regular.png"
+        }
+      },
+      {
+        "file": "assets/Red TinySwords Pixel Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red TinySwords Pixel Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Pixel Frog/127d641256b145b27b168793a81f6e07c7fc8ba8a555a0a93101e3623b525da7_Red TinySwords Pixel Border.png",
+          "name": "Red TinySwords Pixel Border.png"
+        }
+      },
+      {
+        "file": "assets/Red TinySwords Pixel Buffer Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red TinySwords Pixel Buffer Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Pixel Frog/4492763230648435506483efdd3b64fc5c32bae07199c1e38399ceab13e1f8f6_Red TinySwords Pixel Buffer Fill Bar.png",
+          "name": "Red TinySwords Pixel Buffer Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Red TinySwords Pixel Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red TinySwords Pixel Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Pixel Frog/b139d00efcb8402b84ce31fe1eb6d681f131f9f7d7fa53e0db8f4ef436edf5f4_Red TinySwords Pixel Fill Bar.png",
+          "name": "Red TinySwords Pixel Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular2.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular.fnt2",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Pixel Frog/8826f8477c073a233f09326bd5bb208fdd51415e6bfdc3fe8c4b75ab5635521e_8BitOperatorPlus8Regular.fnt",
+          "name": "8BitOperatorPlus8Regular.fnt"
+        }
+      },
+      {
+        "file": "assets/NewSprite94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite94",
         "smoothed": false,
         "userAdded": false
       }
@@ -2405,5 +2672,10 @@
       "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
     }
   ],
-  "externalLayouts": []
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/untitled-external-layout"
+    }
+  ]
 }
