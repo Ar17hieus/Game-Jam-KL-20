@@ -9,7 +9,7 @@
   "title": "",
   "v": 249,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -19,8 +19,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.49508400737488867,
+    "snap": true,
+    "zoomFactor": 0.8141881203709912,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -49,53 +49,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 42,
-      "hidden": true,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ButtnInstructions",
-      "opacity": 199,
-      "persistentUuid": "f86ea38b-d35d-43d4-b94d-7d2b612d8051",
-      "width": 562,
-      "x": 7,
-      "y": 430,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 55,
+      "height": 48,
       "hidden": true,
       "keepRatio": true,
       "layer": "",
       "name": "ButtonPlay",
       "persistentUuid": "67c803ce-f379-447d-b495-888a33883a12",
       "width": 203,
-      "x": 19,
-      "y": 361,
+      "x": 16,
+      "y": 496,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 47,
-      "hidden": true,
-      "layer": "",
-      "name": "Creditsbutton",
-      "opacity": 199,
-      "persistentUuid": "3ffd502c-693f-4aeb-9d8e-d3c35346839b",
-      "width": 404,
-      "x": 7,
-      "y": 497,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -131,8 +94,25 @@
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
       "width": 1277,
       "x": 0,
-      "y": -7,
+      "y": 0,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "hidden": true,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "e5867e02-3c1c-4a59-bf23-080fecdc926a",
+      "width": 0,
+      "x": 76,
+      "y": 48,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -273,83 +253,6 @@
                       {
                         "x": 0,
                         "y": 178
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ButtnInstructions",
-      "persistentUuid": "7581a59f-dfd2-4a94-9258-3941ff1b2518",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 0
-        },
-        {
-          "name": "ShakeObject_PositionAngle",
-          "type": "ShakeObject::ShakeObject_PositionAngle"
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite90",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 1274,
-                        "y": 0
-                      },
-                      {
-                        "x": 1274,
-                        "y": 96
-                      },
-                      {
-                        "x": 1,
-                        "y": 96
                       }
                     ]
                   ]
@@ -2075,23 +1978,13 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Creditsbutton",
-      "persistentUuid": "619b6d8b-bd67-44ce-931e-a75b5d97e12d",
+      "name": "Logo",
+      "persistentUuid": "e0f64d66-3429-481d-b7be-36456ee5c3b1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 0
-        },
         {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
@@ -2099,17 +1992,16 @@
       ],
       "animations": [
         {
-          "name": "New Project (2)",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Project (2)5",
+                  "image": "Logo.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2125,20 +2017,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 41,
+                        "y": 9
                       },
                       {
-                        "x": 746,
-                        "y": 0
+                        "x": 457,
+                        "y": 9
                       },
                       {
-                        "x": 746,
-                        "y": 96
+                        "x": 457,
+                        "y": 307
                       },
                       {
-                        "x": 0,
-                        "y": 96
+                        "x": 41,
+                        "y": 307
                       }
                     ]
                   ]
@@ -2160,16 +2052,13 @@
         "objectName": "ButtonPlay"
       },
       {
-        "objectName": "ButtnInstructions"
-      },
-      {
-        "objectName": "Creditsbutton"
-      },
-      {
         "objectName": "QuitButton"
       },
       {
         "objectName": "MainMenuInformation"
+      },
+      {
+        "objectName": "Logo"
       }
     ]
   },
@@ -2262,12 +2151,23 @@
       "actions": [
         {
           "type": {
+            "value": "SetMusicChannelVolume"
+          },
+          "parameters": [
+            "",
+            "5",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
             "value": "PlaySound"
           },
           "parameters": [
             "",
-            "nintendo-game-boy-startup.mp3",
-            "",
+            "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme).mp3",
+            "yes",
             "100",
             "1"
           ]
@@ -2336,51 +2236,6 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "ButtnInstructions",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "ButtnInstructions",
-            "Opacity",
-            "=",
-            "255"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-          },
-          "parameters": [
-            "ButtnInstructions",
-            "ShakeObject_PositionAngle",
-            "0.25",
-            "2.5",
-            "2.5",
-            "2.5",
-            "1",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
             "QuitButton",
             "",
             "",
@@ -2406,51 +2261,6 @@
           },
           "parameters": [
             "QuitButton",
-            "ShakeObject_PositionAngle",
-            "0.25",
-            "2.5",
-            "2.5",
-            "2.5",
-            "1",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "Opacity",
-            "=",
-            "255"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-          },
-          "parameters": [
-            "Creditsbutton",
             "ShakeObject_PositionAngle",
             "0.25",
             "2.5",
@@ -2500,36 +2310,6 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "ButtnInstructions",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "ButtnInstructions",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
             "QuitButton",
             "",
             "",
@@ -2544,36 +2324,6 @@
           },
           "parameters": [
             "QuitButton",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Creditsbutton",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Creditsbutton",
             "Opacity",
             "=",
             "200"
@@ -2637,14 +2387,6 @@
             "value": "Hide"
           },
           "parameters": [
-            "ButtnInstructions"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
             "QuitButton"
           ]
         },
@@ -2653,7 +2395,7 @@
             "value": "Hide"
           },
           "parameters": [
-            "Creditsbutton"
+            "Logo"
           ]
         },
         {
@@ -2749,41 +2491,40 @@
             "value": "Show"
           },
           "parameters": [
+            "Logo",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "Logo",
+            "ShakeObject_PositionAngle",
+            "0.25",
+            "2.5",
+            "2.5",
+            "2.5",
+            "2",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.15"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
             "ButtonPlay",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.15"
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "ButtnInstructions",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.15"
-          ]
-        },
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "Creditsbutton",
             ""
           ]
         },

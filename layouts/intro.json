@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "intro",
   "name": "intro",
-  "r": 247,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -38,8 +38,8 @@
       "name": "fade",
       "persistentUuid": "f84dd5dd-258d-42fb-afa6-00a3e78e2022",
       "width": 1695,
-      "x": -256,
-      "y": -160,
+      "x": -223,
+      "y": -128,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,15 +47,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 341,
       "keepRatio": true,
       "layer": "",
       "name": "teamName",
       "persistentUuid": "df2e3282-2b81-4b83-baea-7ca86363348e",
-      "width": 0,
-      "x": 276,
-      "y": 171,
+      "width": 654,
+      "x": 338,
+      "y": 139,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,16 +143,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "offfcialtd5logo2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.06666666666666667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "offfcialtd5logo2.webp",
+                  "image": "offfcialtd5logo2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -167,20 +169,1892 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 71
+                        "x": 3,
+                        "y": 21
                       },
                       {
-                        "x": 578,
-                        "y": 71
+                        "x": 304,
+                        "y": 21
                       },
                       {
-                        "x": 578,
-                        "y": 286
+                        "x": 304,
+                        "y": 170
                       },
                       {
-                        "x": 115,
-                        "y": 286
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo54",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo25",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo28",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo29",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo30",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo31",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo32",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo33",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo34",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo35",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo36",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo37",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo38",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo39",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo40",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo41",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo42",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo43",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo44",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo45",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo46",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo47",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo48",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo49",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo50",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo51",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo52",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo53",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "offfcialtd5logo11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 21
+                      },
+                      {
+                        "x": 304,
+                        "y": 170
+                      },
+                      {
+                        "x": 3,
+                        "y": 170
                       }
                     ]
                   ]
