@@ -1308,6 +1308,270 @@
         "name": "Sprite-0008_Copy.webp",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "infinityMainMech.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "infinityMainMech.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walk Up Anim8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk Up Anim8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 1 anim8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 1 anim8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack 2 anim8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack 2 anim8",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
