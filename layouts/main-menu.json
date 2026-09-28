@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.71303776306904,
+    "zoomFactor": 0.49508400737488867,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -289,18 +289,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 0
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "NewSprite",
@@ -1951,8 +1940,8 @@
           },
           "parameters": [
             "",
-            "(Official) Tower Defense Simulator OST - Equinox (Awakened Fallen King Theme).mp3",
-            "yes",
+            "nintendo-game-boy-startup.mp3",
+            "",
             "100",
             "1"
           ]
