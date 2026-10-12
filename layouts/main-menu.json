@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8141881203709912,
+    "zoomFactor": 0.5290357402156839,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -92,7 +92,7 @@
       "name": "Fade",
       "opacity": 3,
       "persistentUuid": "8bf3843c-4d59-4aed-aca6-823edbb6e268",
-      "width": 1277,
+      "width": 1408,
       "x": 0,
       "y": 0,
       "zOrder": 7,
