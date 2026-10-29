@@ -1554,6 +1554,31 @@
       "conditions": [
         {
           "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
@@ -1675,13 +1700,33 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::C_Button_pressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"Right\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Right\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Left\"",
+                "\"Right\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1709,13 +1754,33 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::C_Button_pressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"Left\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Left\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Left\"",
+                "\"Left\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -1892,7 +1957,7 @@
           "parameters": [
             "SelectButton",
             "=",
-            "0"
+            "1"
           ]
         }
       ],

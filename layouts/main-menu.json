@@ -2944,6 +2944,16 @@
             "Chevron_Arrow_Left",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SelectedButton",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -2952,13 +2962,33 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::C_Button_pressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"Down\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Left\"",
+                "\"Down\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Down\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -2986,13 +3016,33 @@
       "conditions": [
         {
           "type": {
-            "value": "Gamepads::C_Button_pressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "1",
-            "\"Up\"",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Gamepads::C_Axis_pushed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Left\"",
+                "\"Up\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Up\"",
+                ""
+              ]
+            }
           ]
         },
         {
@@ -3010,7 +3060,7 @@
           "parameters": [
             "SelectedButton",
             "-",
-            "0"
+            "1"
           ]
         }
       ]
