@@ -4,6 +4,7 @@
   "mangledName": "Untitled_32scene",
   "name": "Untitled scene",
   "r": 247,
+  "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
@@ -2138,9 +2139,9 @@
       "effects": [],
       "behaviors": [
         {
-          "extraBorder": 1,
           "name": "DestroyOutside",
           "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 1,
           "unseenGraceDistance": 10000
         }
       ],
