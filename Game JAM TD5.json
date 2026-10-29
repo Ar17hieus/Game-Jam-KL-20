@@ -17,7 +17,7 @@
     "pixelsRounding": true,
     "projectUuid": "367e580d-34b2-4e61-9d11-f7a72e86f4a0",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "scaleOuter",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Game JAM TD5",
@@ -3733,6 +3733,102 @@
         "name": "Untitled design (35).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/5799ed4e9f2581eb591bc0ae8ac57721f5cfc93cd8a4e97ed04fe6b29b0f56b8_Chevron-Arrow-Left.png",
+          "name": "Chevron-Arrow-Left.png"
+        }
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Up.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/36d8c56187710c0ea7742d44eb20825ee099bf2e0976f342bca1c04da5f1644a_Chevron-Arrow-Up.png",
+          "name": "Chevron-Arrow-Up.png"
+        }
       }
     ]
   },

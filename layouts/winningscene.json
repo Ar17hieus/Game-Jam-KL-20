@@ -27,7 +27,14 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "SelectButton",
+      "persistentUuid": "6bba95d7-e4e8-4990-b4b8-ff9f08437233",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -127,6 +134,23 @@
       "x": 0,
       "y": 0,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chevron_Arrow_Up",
+      "persistentUuid": "2c96603e-eaf9-4fa7-a0a1-abac0fbe231d",
+      "width": 55,
+      "x": 229,
+      "y": 624,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -624,14 +648,20 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite135",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -667,7 +697,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite136",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -703,7 +739,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite137",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -739,7 +781,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite138",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -775,7 +823,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite139",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -811,7 +865,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite140",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -847,7 +907,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite141",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -920,14 +986,20 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite142",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -963,7 +1035,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite143",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -999,7 +1077,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite144",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1035,7 +1119,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite145",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1071,7 +1161,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite146",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1107,7 +1203,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite147",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1143,7 +1245,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite148",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Select",
+                      "x": 16,
+                      "y": 33
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1348,6 +1456,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "00a1702ecb9e41fef7bfdb3f1c4b0de7a9c99ddcdd1a5c13da577d5c3a89f3e4",
+      "name": "Chevron_Arrow_Up",
+      "persistentUuid": "e58bd585-3240-45da-b837-428367eea560",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chevron-Arrow-Up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 7,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 7,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 9
+                      },
+                      {
+                        "x": 0,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1361,6 +1530,9 @@
       },
       {
         "objectName": "Restart"
+      },
+      {
+        "objectName": "Chevron_Arrow_Up"
       },
       {
         "objectName": "NewText"
@@ -1497,6 +1669,270 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::C_Button_pressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Right\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::C_Button_pressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Left\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PutAroundPosition"
+          },
+          "parameters": [
+            "Chevron_Arrow_Up",
+            "Restart.PointX(\"Select\")",
+            "Restart.PointY(\"Select\")",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PutAroundPosition"
+          },
+          "parameters": [
+            "Chevron_Arrow_Up",
+            "HomeButton.PointX(\"Select\")",
+            "HomeButton.PointY(\"Select\")",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::C_Button_pressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"A\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "Restart",
+            "Flash",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"fadeIn\"",
+            "255",
+            "\"easeOutQuad\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Untitled scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Gamepads::C_Button_pressed"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"A\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SelectButton",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "HomeButton",
+            "Flash",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Fade",
+            "Tween",
+            "\"fadeIn\"",
+            "255",
+            "\"easeOutQuad\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"main menu\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1509,6 +1945,7 @@
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
+      "defaultCameraBehavior": "do-nothing",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
