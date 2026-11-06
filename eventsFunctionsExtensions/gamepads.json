@@ -2333,7 +2333,6 @@
       "name": "PlatformerGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -2941,7 +2940,6 @@
       "name": "Platformer3DGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3168,7 +3166,6 @@
       "name": "Shooter3DGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3404,7 +3401,6 @@
       "name": "FirstPersonGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -4603,7 +4599,6 @@
       "name": "PhysicsCar3DGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5011,7 +5006,6 @@
       "name": "TopDownGamepadMapper",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",

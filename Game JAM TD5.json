@@ -1,7 +1,7 @@
 {
   "firstLayout": "intro",
   "gdVersion": {
-    "build": 282,
+    "build": 287,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -17,7 +17,7 @@
     "pixelsRounding": true,
     "projectUuid": "367e580d-34b2-4e61-9d11-f7a72e86f4a0",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Game JAM TD5",
@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "D:\\InfinityZero",
+    "latestCompilationDirectory": "C:\\Users\\myleg\\OneDrive\\Documents\\INFINITY==ZERO",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3733,6 +3733,170 @@
         "name": "Untitled design (35).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/5799ed4e9f2581eb591bc0ae8ac57721f5cfc93cd8a4e97ed04fe6b29b0f56b8_Chevron-Arrow-Left.png",
+          "name": "Chevron-Arrow-Left.png"
+        }
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Left9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chevron-Arrow-Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Up.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/36d8c56187710c0ea7742d44eb20825ee099bf2e0976f342bca1c04da5f1644a_Chevron-Arrow-Up.png",
+          "name": "Chevron-Arrow-Up.png"
+        }
+      },
+      {
+        "file": "assets/lasereffect3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lasereffect3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Explosion3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/c693a024a868728da3e9e91c9d23513306582bda6ba10191afc24d6c5667dd5e_Explosion3.png",
+          "name": "Explosion3.png"
+        }
+      },
+      {
+        "file": "assets/Aimer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aimer.png\"}",
+        "name": "Aimer",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Up11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up11.png\"}",
+        "name": "Up",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RIght8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RIght",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Up12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Up12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3766,7 +3930,27 @@
       "referenceTo": "/layouts/winningscene"
     }
   ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "main menu"
+      },
+      {
+        "itemName": "intro"
+      },
+      {
+        "itemName": "Untitled scene"
+      },
+      {
+        "itemName": "WinningScene"
+      }
+    ]
+  },
   "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "tests": [
     {
       "description": "Verifies enemy HP scaling: base 2/2, then 3/3 for both surviving and newly spawned enemies after the 15s tick.",
@@ -3798,6 +3982,14 @@
       ]
     }
   ],
+  "testsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Enemy HP scales with time"
+      }
+    ]
+  },
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3861,5 +4053,13 @@
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/gameui"
     }
-  ]
+  ],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "gameui"
+      }
+    ]
+  }
 }

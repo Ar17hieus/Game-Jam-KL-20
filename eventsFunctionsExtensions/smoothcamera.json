@@ -53,7 +53,6 @@
       "name": "SmoothCamera",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5126,7 +5125,6 @@
       "name": "SmoothPlatformerCamera",
       "objectType": "",
       "previewIconUrl": "",
-      "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
           "fullName": "",
