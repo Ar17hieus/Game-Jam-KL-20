@@ -4006,7 +4006,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "lasereffect",
+                  "image": "lasereffect3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5956,54 +5956,6 @@
       ]
     },
     {
-      "additive": true,
-      "assetStoreId": "b87985c7d940ec893b61769fbdc76585c5a871da0bd68799eeda96791b3b763d",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 360,
-      "emitterForceMax": 140,
-      "emitterForceMin": 80,
-      "flow": 400,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 100,
-      "name": "RedExplosion",
-      "particleAlpha1": 255,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 0,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 64,
-      "particleBlue2": 0,
-      "particleColor1": "255;255;64",
-      "particleColor2": "255;0;0",
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGreen1": 255,
-      "particleGreen2": 0,
-      "particleLifeTimeMax": 1.2,
-      "particleLifeTimeMin": 0.6,
-      "particleRed1": 255,
-      "particleRed2": 255,
-      "particleSize1": 50,
-      "particleSize2": 200,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "persistentUuid": "a6a0e7c6-90de-4d77-afe1-d7974634d4a1",
-      "rendererParam1": 0,
-      "rendererParam2": 0,
-      "rendererType": "Quad",
-      "tank": 100,
-      "textureParticleName": "LightGlow.png",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 0,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "additive": false,
       "assetStoreId": "07730a2bc4cc4d118511e74915f481cacdbeb128d8100fab1350d10d7cbb0860",
       "destroyWhenNoParticles": true,
@@ -6134,6 +6086,264 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "ceade84d2cc0571dc97ba3ad034dc7b7766670668e8a16c247d32a8a4c0f55ed",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 200,
+      "emitterForceMin": 200,
+      "flow": 800,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 100,
+      "name": "RedExplosion",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 160,
+      "particleBlue2": 12,
+      "particleColor1": "255;223;160",
+      "particleColor2": "16;15;12",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 223,
+      "particleGreen2": 15,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 16,
+      "particleSize1": 500,
+      "particleSize2": 120,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "persistentUuid": "b4599165-e5ac-4d14-a1f0-d90e04f9a890",
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": 30,
+      "textureParticleName": "Explosion3.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 10,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Aimer",
+      "persistentUuid": "b550be25-69de-4622-86df-18db411ad2b0",
+      "preScale": 5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aimer",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RIght",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Up",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 55
+                      },
+                      {
+                        "x": 0,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6167,10 +6377,10 @@
         "objectName": "Slash"
       },
       {
-        "objectName": "enemy"
+        "objectName": "Aimer"
       },
       {
-        "objectName": "RedExplosion"
+        "objectName": "enemy"
       },
       {
         "objectName": "boom"
@@ -6243,6 +6453,9 @@
       },
       {
         "objectName": "crates"
+      },
+      {
+        "objectName": "RedExplosion"
       }
     ]
   },
@@ -6673,7 +6886,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7069,7 +7281,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7079,7 +7290,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "slash",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8786,6 +8996,17 @@
                         "100",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Gamepads::A_Vibrate_controller"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "3",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -8847,18 +9068,6 @@
                         "=",
                         "0",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "soundshelfstudio-ui-hyperdrive-ready-ping-537579.mp3",
-                        "",
-                        "100",
-                        "1"
                       ]
                     }
                   ]
@@ -8950,6 +9159,17 @@
                         "150",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Gamepads::A_Vibrate_controller"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "3",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -9000,6 +9220,17 @@
                         "Player",
                         "270",
                         "150",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Gamepads::A_Vibrate_controller"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "3",
                         ""
                       ]
                     }
@@ -9054,6 +9285,17 @@
                         "150",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Gamepads::A_Vibrate_controller"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "3",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -9104,6 +9346,17 @@
                         "Player",
                         "180",
                         "150",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Gamepads::A_Vibrate_controller"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "3",
                         ""
                       ]
                     }
@@ -9555,7 +9808,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "enemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9808,8 +10060,8 @@
               "parameters": [
                 "",
                 "RedExplosion",
-                "enemy.X()",
-                "enemy.Y()",
+                "enemy.CenterX()",
+                "enemy.CenterY()",
                 ""
               ]
             },
@@ -10105,8 +10357,8 @@
               "parameters": [
                 "",
                 "RedExplosion",
-                "stronggeradversary.X()",
-                "stronggeradversary.Y()",
+                "stronggeradversary.CenterX()",
+                "stronggeradversary.CenterY()",
                 ""
               ]
             },
